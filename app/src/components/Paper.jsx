@@ -5,7 +5,7 @@ import { Glass, Reveal } from "./ui.jsx";
 export default function Paper() {
   const [html, setHtml] = useState("");
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}paper.md`).then(r => r.text()).then(md => setHtml(marked.parse(md)));
+    fetch(`${import.meta.env.BASE_URL}paper.md?v=${__BUILD__}`, { cache: "no-cache" }).then(r => r.text()).then(md => setHtml(marked.parse(md)));
   }, []);
   return (
     <section className="section wrap narrow" style={{ margin: "0 auto" }}>

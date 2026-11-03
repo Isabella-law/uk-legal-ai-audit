@@ -15,8 +15,8 @@ export default function App() {
 
   useEffect(() => {
     const base = import.meta.env.BASE_URL;
-    fetch(`${base}data.json`).then(r => r.json()).then(setData);
-    fetch(`${base}reference.json`).then(r => r.json()).then(setReference).catch(() => {});
+    fetch(`${base}data.json?v=${__BUILD__}`).then(r => r.json()).then(setData);
+    fetch(`${base}reference.json?v=${__BUILD__}`).then(r => r.json()).then(setReference).catch(() => {});
     const onHash = () => {
       const isPaper = location.hash === "#paper";
       setRoute(isPaper ? "paper" : "home");

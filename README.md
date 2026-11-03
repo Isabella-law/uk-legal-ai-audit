@@ -113,7 +113,7 @@ The first pilot ran Claude Haiku 5.5, Sonnet 5.5 and Opus 5.5 on the full bank (
 - Showcase site: `site/index.html` (rebuild with `python3 site/build.py`)
 - Run logs, with the serving model and tool calls of every run: `pilot/`
 
-The method deviations (sub-agent runs, batched prompts, provisional grading by an AI reviewer) are set out in §3.2 and §7 of the paper.
+The method and its limitations are set out in sections 3 and 7 of the paper.
 
 ## Website (`app/`)
 
