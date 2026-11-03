@@ -4,7 +4,7 @@ import Checker from "./components/Checker.jsx";
 import Explorer from "./components/Explorer.jsx";
 import Paper from "./components/Paper.jsx";
 import { SectionHead } from "./components/ui.jsx";
-import { Errors, Footer, Hero, Judge, Limits, Method, Pilot, Specimen, Study1, Why } from "./components/Sections.jsx";
+import { Errors, Footer, Hero, Judge, Limits, Method, Specimen, Study1, Why } from "./components/Sections.jsx";
 
 const NAV = [["check", "Live checker"], ["study1", "Audit"], ["study2", "AI judge"], ["explorer", "Evidence"], ["paper", "Paper"]];
 
@@ -49,7 +49,6 @@ export default function App() {
           <>
             <Hero data={data} />
             <Specimen />
-            <Pilot />
             <section className="section wrap stack" id="check" style={{ gap: 32 }}>
               <SectionHead eyebrow="Try it · live" title="Check any AI answer against the official record">
                 Paste legal text, for example an answer from ChatGPT, Claude or Gemini. Every neutral citation and law-report reference is checked live against The National Archives' Find Case Law, using the study's three-tier method.

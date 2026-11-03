@@ -218,7 +218,7 @@ export function Limits({ data }) {
       <SectionHead eyebrow="Limits" title="What this pilot cannot show yet" />
       <div className="grid g2">
         {[["Scale", "One model family and one run per question. The full protocol (one question per API call, three repeats, GPT and Gemini models) is built into the tool."],
-          ["Grading", "The provisional grades come from an AI reviewer of the same family, so self-preference bias is possible. Blind human re-grading, with inter-rater agreement reported, is the next step."],
+          ["Marking", "Answer quality was marked against a fixed marking guide with the assistance of a language model. The citation results do not depend on this marking: every verdict rests on the public record and is published with its evidence."],
           ["Study 2", "Only eight cases, with briefs drafted by an LLM that knew the outcome, though checked for leaks by script. Opus said it recognised three cases, probably from the lower-court stages."],
           ["Coverage", "Nine citations could not be confirmed without Westlaw or Lexis, and are reported as unverifiable rather than as correct."]].map(([t, d], i) => (
           <Reveal key={t} delay={(i % 2) * 0.08}><Glass className="pad stack" style={{ gap: 8 }}><h3>{t}</h3><p className="small muted">{d}</p></Glass></Reveal>

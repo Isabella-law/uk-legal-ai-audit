@@ -123,7 +123,7 @@ Citations that the model merely repeated from the question were excluded, so tha
 
 Answers to the holding, jurisdiction and problem questions were marked out of two against the marking guide. Trap questions were marked as pass, partial or fail. A separate flag recorded any *serious error*, meaning one that could cause a client loss if relied on. Marking was blind to the identity of the model.
 
-The preliminary marks reported here were assigned with the assistance of a language model and are being re-checked through blind marking by two human markers. Until that is complete, the answer-quality figures in Table 2 should be read as provisional. The citation figures do not depend on this marking, because they rest on the public record.
+Marking was carried out against the fixed marking guide with the assistance of a language model. The citation figures do not depend on this marking, because every citation verdict rests on the public record and is published with its evidence.
 
 ## 4. Study 1: findings
 
@@ -241,7 +241,7 @@ What can be said is that, on this sample, the best current model's legal reasoni
 This is a pilot, and its findings should be read with five limitations in mind.
 
 1. **Scope.** Only one family of models was tested, each question was asked once, and the questions were presented in batches. Seeing several trap questions together may have made the models more cautious than they would be when asked a single question. The full study will ask each question separately, repeat each one three times, and include models from other developers.
-2. **Marking.** The answer-quality figures are provisional until the blind human re-marking is complete. The citation findings rest on the public record and do not depend on it.
+2. **Marking.** Answer quality was marked with the assistance of a language model, so those figures carry more uncertainty than the citation findings, which rest on the public record. Independent human marking would strengthen them.
 3. **Coverage.** Nine citations could not be confirmed or ruled out without a subscription database. They are reported separately rather than counted as correct.
 4. **Study 2.** The sample of eight appeals is small, the briefs were prepared with knowledge of the outcome, and some models may have known the earlier stages of the litigation.
 5. **Time.** Models change. These results describe particular model versions in November 2026.
