@@ -1,0 +1,33 @@
+[
+  {
+    "name": "claude-opus-5-5",
+    "provider": "anthropic",
+    "model": "claude-opus-5-5",
+    "effort": "high",
+    "knowledge_cutoff": "REPLACE-YYYY-MM-DD from the provider's model card",
+    "enabled": true
+  },
+  {
+    "name": "claude-sonnet-5-5",
+    "provider": "anthropic",
+    "model": "claude-sonnet-5-5",
+    "knowledge_cutoff": "REPLACE-YYYY-MM-DD",
+    "enabled": true
+  },
+  {
+    "name": "openai-flagship",
+    "provider": "openai",
+    "model": "REPLACE with the current OpenAI model id",
+    "knowledge_cutoff": "REPLACE-YYYY-MM-DD",
+    "enabled": false
+  },
+  {
+    "name": "gemini-flagship",
+    "provider": "openai",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "api_key_env": "GEMINI_API_KEY",
+    "model": "REPLACE with the current Gemini model id",
+    "knowledge_cutoff": "REPLACE-YYYY-MM-DD",
+    "enabled": false
+  }
+]

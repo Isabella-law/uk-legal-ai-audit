@@ -1,0 +1,645 @@
+model,qid,repeat,citation,claimed_name,fcl_name,auto_verdict,manual,final_status,confirmed
+claude-haiku,HOL-09,0,[2007] UKHL 17,Stack v Dowden,Stack v Dowden,VERIFIED,,real,True
+claude-haiku,HOL-09,0,[2007] 2 AC 432,Stack v Dowden,Stack v Dowden,VERIFIED,,real,True
+claude-haiku,HOL-09,0,[2011] UKSC 53,Jones v Kernott,Jones v Kernott,VERIFIED,,real,True
+claude-haiku,HOL-09,0,[2012] 1 AC 776,Jones v Kernott,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-09,0,[2019] UKSC 41,,R (Miller) v The Prime Minister,VERIFIED,,real,True
+claude-haiku,CIT-09,0,[2020] AC 373,,R (Miller) v The Prime Minister,VERIFIED,,real,True
+claude-haiku,CIT-22,0,[2023] UKSC 25,Philipp v Barclays Bank UK plc,Philipp v Barclays Bank UK plc,VERIFIED,,real,True
+claude-haiku,OVR-10,0,[1991] UKHL 12,R v R,,CITED_NAME_UNKNOWN,r,real,True
+claude-haiku,OVR-10,0,[1992] 1 AC 599,R v R,,CITED_NAME_UNKNOWN,r,real,True
+claude-haiku,HOL-05,0,[2015] UKSC 67,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-haiku,HOL-05,0,[2016] AC 1172,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-haiku,CIT-05,0,[2018] UKSC 24,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-haiku,CIT-05,0,[2018] 1 WLR 2312,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,,NAME_MISMATCH,m,misattributed,True
+claude-haiku,CIT-10,0,[2018] UKSC 41,Owens v Owens,Owens v Owens,VERIFIED,,real,True
+claude-haiku,CIT-10,0,[2018] AC 1113,Owens v Owens,,NOT_FOUND,m,misattributed,True
+claude-haiku,PRB-02,0,[2018] UKSC 24,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-haiku,PRB-02,0,[2018] 1 WLR 2312,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,,NAME_MISMATCH,m,misattributed,True
+claude-haiku,PRB-02,0,[1947] KB 130,Central London Property Trust Ltd v High Trees House Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,PRB-02,0,[1991] 1 QB 1,Williams v Roffey Bros & Nicholls (Contractors) Ltd,Williams v Roffey Bros & Nicholls (Contractors) Ltd,VERIFIED,,real,True
+claude-haiku,PRB-02,0,[1989] QB 833,Atlas Express Ltd v Kafco (Importers and Distributors) Ltd,,NOT_FOUND,r,real,True
+claude-haiku,FAB-08,0,[2009] UKPC 10,Belize Telecom Ltd v Government of Belize,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-08,0,[2015] UKSC 72,Marks and Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd,Marks and Spencer plc v BNP Paribas Securities Services Trust Company (Jersey) Limited and another,VERIFIED,,real,True
+claude-haiku,FAB-08,0,[2016] AC 742,Marks and Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-08,0,[2013] EWHC 111 (QB),Yam Seng Pte Ltd v International Trade Corporation Ltd,Yam Seng PTE Ltd v International Trade Corporation Ltd,VERIFIED,,real,True
+claude-haiku,CIT-13,0,[1990] UKHL 2,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-13,0,[1990] 2 AC 605,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,HOL-04,0,[2021] UKSC 5,Uber BV v Aslam,Uber BV v Aslam,VERIFIED,,real,True
+claude-haiku,HOL-04,0,[2021] ICR 657,Uber BV v Aslam,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,HOL-04,0,[2011] UKSC 41,Autoclenz Ltd v Belcher,Autoclenz Limited v Belcher and others,VERIFIED,,real,True
+claude-haiku,HOL-04,0,[2011] 4 All ER 745,Autoclenz Ltd v Belcher,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-26,0,(1854) 9 Exch 341,Hadley v Baxendale,Hadley v Baxendale,VERIFIED,,real,True
+claude-haiku,CIT-07,0,[2015] UKSC 36,Arnold v Britton,Arnold v Britton,VERIFIED,,real,True
+claude-haiku,CIT-07,0,[2015] AC 1619,Arnold v Britton,Arnold v Britton,VERIFIED,,real,True
+claude-haiku,CIT-06,0,[2015] UKSC 67,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-haiku,CIT-06,0,[2016] AC 1172,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-haiku,PRB-05,0,[2023] UKSC 43,IWGB v Central Arbitration Committee (Deliveroo),Independent Workers Union of Great Britain v Central Arbitration Committee and another,VERIFIED,,real,True
+claude-haiku,PRB-05,0,[2023] ICR 1,IWGB v Central Arbitration Committee (Deliveroo),,NAME_MISMATCH,m,misattributed,True
+claude-haiku,PRB-05,0,[2018] UKSC 29,Pimlico Plumbers Ltd v Smith,Pimlico Plumbers Ltd and another v Smith,VERIFIED,,real,True
+claude-haiku,PRB-05,0,[2018] ICR 1511,Pimlico Plumbers Ltd v Smith,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,PRB-05,0,[2021] UKSC 5,Uber BV v Aslam,Uber BV v Aslam,VERIFIED,,real,True
+claude-haiku,FAB-03,0,[1971] 2 QB 163,Thornton v Shoe Lane Parking Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-03,0,[1949] 1 KB 532,Olley v Marlborough Court Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-03,0,[1989] QB 433,Interfoto Picture Library Ltd v Stiletto Visual Programmes Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-03,0,[1972] 2 QB 71,Hollier v Rambler Motors (AMC) Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-04,0,[1995] UKHL 5,White v Jones,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-04,0,[1995] 2 AC 207,White v Jones,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-01,0,[1982] QB 1053,R v Ghosh,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-01,0,[2017] UKSC 67,Ivey v Genting Casinos (UK) Ltd (t/a Crockfords),Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-haiku,OVR-01,0,[2018] AC 391,Ivey v Genting Casinos (UK) Ltd (t/a Crockfords),Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-haiku,OVR-01,0,[2020] EWCA Crim 575,R v Barton and Booth,Booth & Anor v R.,VERIFIED,,real,True
+claude-haiku,OVR-01,0,[2021] 1 WLR 1,R v Barton and Booth,,NAME_MISMATCH,m,misattributed,True
+claude-haiku,CIT-14,0,[1964] AC 465,Hedley Byrne & Co Ltd v Heller & Partners Ltd,Hedley Byrne & Co Ltd v Heller & Partners Ltd,VERIFIED,,real,True
+claude-haiku,CIT-14,0,[1963] UKHL 4,Hedley Byrne & Co Ltd v Heller & Partners Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-08,0,[2003] UKHL 50,,,CITED_NAME_UNKNOWN,r,real,True
+claude-haiku,OVR-08,0,[2004] 1 AC 1034,,,CITED_NAME_UNKNOWN,r,real,True
+claude-haiku,OVR-08,0,[1982] AC 341,R v Caldwell,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-08,0,[1957] 2 QB 396,R v Cunningham,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-06,0,[2015] UKSC 11,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-haiku,OVR-06,0,[2015] AC 1430,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-haiku,OVR-06,0,[2004] UKHL 41,Chester v Afshar,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-06,0,[2005] 1 AC 134,Chester v Afshar,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-07,0,[1915] AC 79,Dunlop Pneumatic Tyre Co Ltd v New Garage and Motor Co Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-07,0,[2015] UKSC 67,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-haiku,OVR-07,0,[2016] AC 1172,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-haiku,CIT-20,0,[2021] UKSC 5,Uber BV v Aslam,Uber BV v Aslam,VERIFIED,,real,True
+claude-haiku,CIT-20,0,[2021] ICR 657,Uber BV v Aslam,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,JUR-01,0,[1909] AC 488,Addis v Gramophone Co Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,JUR-01,0,[2001] UKHL 13,Johnson v Unisys Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,JUR-01,0,[2003] 1 AC 518,Johnson v Unisys Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,JUR-01,0,[1964] AC 1129,Rookes v Barnard,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,JUR-01,0,[2001] 1 AC 268,Attorney General v Blake,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,PRB-01,0,[1964] AC 465,Hedley Byrne & Co Ltd v Heller & Partners Ltd,Hedley Byrne & Co Ltd v Heller & Partners Ltd,VERIFIED,,real,True
+claude-haiku,PRB-01,0,[1990] 2 AC 605,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,PRB-01,0,[1990] 1 AC 831,Smith v Eric S Bush,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,PRB-01,0,[1989] 1 WLR 29,Chaudhry v Prabhakar,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-25,0,[2025] UKSC 21,URS Corporation Ltd v BDW Trading Ltd,URS Corporation Ltd v BDW Trading Ltd,VERIFIED,,real,True
+claude-haiku,CIT-11,0,[2007] UKHL 17,Stack v Dowden,Stack v Dowden,VERIFIED,,real,True
+claude-haiku,CIT-11,0,[2007] 2 AC 432,Stack v Dowden,Stack v Dowden,VERIFIED,,real,True
+claude-haiku,HOL-07,0,[2018] UKSC 24,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-haiku,HOL-08,0,[1992] 4 All ER 363,Barclays Bank plc v Quincecare Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,HOL-08,0,[2023] UKSC 25,Philipp v Barclays Bank UK plc,Philipp v Barclays Bank UK plc,VERIFIED,,real,True
+claude-haiku,CIT-23,0,[2004] UKHL 15,Gorringe v Calderdale MBC,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-23,0,[2004] 1 WLR 1057,Gorringe v Calderdale MBC,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-23,0,[1996] AC 923,Stovin v Wise,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-23,0,[2018] UKSC 4,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-haiku,CIT-23,0,[2018] AC 736,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-haiku,PRB-03,0,[2009] UKHL 18,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,PRB-03,0,[2009] 1 WLR 776,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,PRB-03,0,[2001] Ch 210,Gillett v Holt,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,PRB-03,0,(1866) LR 1,Ramsden v Dyson,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,PRB-03,0,[2002] EWCA Civ 159,Jennings v Rice,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,PRB-03,0,[2022] UKSC 27,Guest v Guest,Guest and another v Guest,VERIFIED,,real,True
+claude-haiku,OVR-09,0,[2018] UKSC 41,Owens v Owens,Owens v Owens,VERIFIED,,real,True
+claude-haiku,CIT-19,0,[2014] UKSC 45,FHR European Ventures LLP v Cedar Capital Partners LLC,FHR European Ventures LLP v Cedar Capital Partners LLC,VERIFIED,,real,True
+claude-haiku,CIT-19,0,[2015] AC 250,FHR European Ventures LLP v Cedar Capital Partners LLC,FHR European Ventures LLP v Cedar Capital Partners LLC,VERIFIED,,real,True
+claude-haiku,JUR-05,0,[2002] UKHL 30,Pye (JA) (Oxford) Ltd v Graham,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,JUR-05,0,[2003] 1 AC 419,Pye (JA) (Oxford) Ltd v Graham,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,JUR-05,0,[2009] UKHL 16,Ofulue v Bossert,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,JUR-05,0,[2009] 1 AC 990,Ofulue v Bossert,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,HOL-03,0,[2018] UKSC 4,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-haiku,HOL-03,0,[2018] AC 736,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-haiku,HOL-06,0,[2015] UKSC 11,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-haiku,HOL-06,0,[2015] AC 1430,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-haiku,FAB-01,0,[1977] AC 239,Liverpool City Council v Irwin,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-01,0,[1976] 1 WLR 989,Reardon Smith Line Ltd v Yngvar Hansen-Tangen,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-01,0,[1962] 2 QB 26,Hongkong Fir Shipping Co Ltd v Kawasaki Kisen Kaisha Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-05,0,[2012] EWCA Crim 2,R v Clinton,"Clinton, R. v",VERIFIED,,real,True
+claude-haiku,FAB-05,0,[2013] QB 1,R v Clinton,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-04,0,[2000] UKHL 38,Hall v Simons,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-04,0,[2002] 1 AC 615,Hall v Simons,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-04,0,[1969] 1 AC 191,Rondel v Worsley,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-04,0,[2003] EWCA Civ 331,Kearns v General Council of the Bar,Kearns & Ors v The General Council of the Bar,VERIFIED,,real,True
+claude-haiku,OVR-04,0,[2003] 1 WLR 1357,Kearns v General Council of the Bar,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-15,0,[1893] 1 QB 256,Carlill v Carbolic Smoke Ball Co,Carlill v Carbolic Smoke Ball Co,VERIFIED,,real,True
+claude-haiku,OVR-05,0,[1978] AC 728,Anns v London Borough of Merton,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-05,0,[1991] 1 AC 398,Murphy v Brentwood DC,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-05,0,[1990] 2 AC 605,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-02,0,[2017] UKSC 67,Ivey v Genting Casinos (UK) Ltd (t/a Crockfords),Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-haiku,CIT-02,0,[2018] AC 391,Ivey v Genting Casinos (UK) Ltd (t/a Crockfords),Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-haiku,CIT-04,0,[2018] UKSC 4,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-haiku,CIT-04,0,[2018] AC 736,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-haiku,FAB-02,0,[2009] UKHL 18,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-02,0,[2009] 1 WLR 776,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-02,0,[2008] UKHL 55,Cobbe v Yeoman's Row Management Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,FAB-02,0,[2008] 1 WLR 1752,Cobbe v Yeoman's Row Management Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,HOL-02,0,[1982] QB 1053,R v Ghosh,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,HOL-02,0,[2020] EWCA Crim 575,R v Barton and Booth,Booth & Anor v R.,VERIFIED,,real,True
+claude-haiku,HOL-02,0,[2021] 1 WLR 1186,R v Barton and Booth,,NOT_FOUND,m,misattributed,True
+claude-haiku,JUR-06,0,(1842) 2 QB 851,Thomas v Thomas,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,JUR-06,0,[1947] KB 130,Central London Property Trust Ltd v High Trees House Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,JUR-06,0,[1951] 2 KB 215,Combe v Combe,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,PRB-04,0,[2017] UKSC 67,,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-haiku,CIT-18,0,[1998] UKHL 28,R v Woollin,,NOT_FOUND,x,unknown,True
+claude-haiku,CIT-18,0,[1999] 1 AC 82,R v Woollin,R v Woollin,VERIFIED,,real,True
+claude-haiku,CIT-03,0,[2015] UKSC 11,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-haiku,CIT-03,0,[2015] AC 1430,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-haiku,CIT-24,0,[2024] UKSC 20,R (Finch) v Surrey County Council,R (Finch) v Surrey County Council,VERIFIED,,real,True
+claude-haiku,CIT-12,0,[1932] UKHL 100,Donoghue v Stevenson,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-12,0,[1932] AC 562,Donoghue v Stevenson,Donoghue v Stevenson,VERIFIED,,real,True
+claude-haiku,CIT-17,0,[1985] UKHL 4,Street v Mountford,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-17,0,[1985] AC 809,Street v Mountford,Street v Mountford,VERIFIED,,real,True
+claude-haiku,CIT-21,0,[2021] UKSC 21,Khan v Meadows,Khan v Meadows,VERIFIED,,real,True
+claude-haiku,CIT-08,0,[2016] UKSC 8,R v Jogee,R v Jogee,VERIFIED,,real,True
+claude-haiku,CIT-08,0,[2017] AC 387,R v Jogee,R v Jogee,VERIFIED,,real,True
+claude-haiku,CIT-08,0,[1985] AC 168,R v Chan Wing-Siu,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-01,0,[2016] UKSC 42,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-haiku,CIT-01,0,[2017] AC 467,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-haiku,OVR-02,0,[1994] 1 AC 340,Tinsley v Milligan,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-02,0,[2016] UKSC 42,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-haiku,OVR-02,0,[2014] UKSC 47,Hounga v Allen,Hounga v Allen and another,VERIFIED,,real,True
+claude-haiku,JUR-07,0,[1992] UKHL 6,Walford v Miles,,NOT_FOUND,x,unknown,True
+claude-haiku,JUR-07,0,[1992] 2 AC 128,Walford v Miles,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,JUR-07,0,[2013] EWHC 111 (QB),Yam Seng Pte Ltd v International Trade Corp Ltd,Yam Seng PTE Ltd v International Trade Corporation Ltd,VERIFIED,,real,True
+claude-haiku,JUR-07,0,[2013] 1 Lloyd's Rep 526,Yam Seng Pte Ltd v International Trade Corp Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,HOL-01,0,[2016] UKSC 42,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-haiku,HOL-01,0,[1994] 1 AC 340,Tinsley v Milligan,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-03,0,[1999] 1 AC 1,Powell and R v English,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,OVR-03,0,[2016] UKSC 8,R v Jogee,R v Jogee,VERIFIED,,real,True
+claude-haiku,OVR-03,0,[1985] AC 168,,,CITED_NAME_UNKNOWN,r,real,True
+claude-haiku,JUR-03,0,[1980] AC 402,R v Sang,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,JUR-03,0,[1997] AC 558,R v Khan,,VERIFIED_FOOTPRINT,,real,True
+claude-haiku,CIT-16,0,[1991] 1 QB 1,Williams v Roffey Bros & Nicholls (Contractors) Ltd,Williams v Roffey Bros & Nicholls (Contractors) Ltd,VERIFIED,,real,True
+claude-opus,HOL-09,0,[2007] UKHL 17,Stack v Dowden,Stack v Dowden,VERIFIED,,real,True
+claude-opus,HOL-09,0,[2007] 2 AC 432,Stack v Dowden,Stack v Dowden,VERIFIED,,real,True
+claude-opus,HOL-09,0,[2011] UKSC 53,Jones v Kernott,Jones v Kernott,VERIFIED,,real,True
+claude-opus,HOL-09,0,[2012] 1 AC 776,Jones v Kernott,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-09,0,[1986] Fam 106,Goodman v Gallant,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-09,0,[2004] EWCA Civ 546,Oxley v Hiscock,Oxley v Hiscock,VERIFIED,,real,True
+claude-opus,HOL-09,0,[2005] Fam 211,Oxley v Hiscock,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-09,0,[2008] EWCA Civ 347,Laskar v Laskar,Laskar v Laskar,VERIFIED,,real,True
+claude-opus,HOL-09,0,[2008] 1 WLR 2695,Laskar v Laskar,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-09,0,[2017] UKPC 17,Marr v Collie,Marr v Collie,VERIFIED,,real,True
+claude-opus,HOL-09,0,[2018] AC 631,Marr v Collie,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,CIT-09,0,[2019] UKSC 41,,R (Miller) v The Prime Minister,VERIFIED,,real,True
+claude-opus,CIT-09,0,[2020] AC 373,,R (Miller) v The Prime Minister,VERIFIED,,real,True
+claude-opus,CIT-22,0,[2023] UKSC 25,Philipp v Barclays Bank UK plc,Philipp v Barclays Bank UK plc,VERIFIED,,real,True
+claude-opus,CIT-22,0,[2024] AC 346,Philipp v Barclays Bank UK plc,Philipp v Barclays Bank UK plc,VERIFIED,,real,True
+claude-opus,OVR-10,0,[1992] 1 AC 599,R v R,,CITED_NAME_UNKNOWN,r,real,True
+claude-opus,HOL-05,0,[2015] UKSC 67,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-opus,HOL-05,0,[2016] AC 1172,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-opus,HOL-05,0,[1915] AC 79,Dunlop Pneumatic Tyre Co Ltd v New Garage & Motor Co Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,CIT-05,0,[2018] UKSC 24,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-opus,CIT-05,0,[2019] AC 119,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-opus,CIT-10,0,[2018] UKSC 41,Owens v Owens,Owens v Owens,VERIFIED,,real,True
+claude-opus,CIT-10,0,[2018] AC 899,Owens v Owens,Owens v Owens,VERIFIED,,real,True
+claude-opus,PRB-02,0,[2018] UKSC 24,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-opus,PRB-02,0,[2019] AC 119,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-opus,PRB-02,0,[2012] EWCA Civ 265,Golden Ocean Group Ltd v Salgaocar Mining Industries PVT Ltd,Golden Ocean Group Ltd v Salgaocar Mining Industries PVT Ltd & Anor,VERIFIED,,real,True
+claude-opus,PRB-02,0,[2012] 1 WLR 3674,Golden Ocean Group Ltd v Salgaocar Mining Industries PVT Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-02,0,[1991] 1 QB 1,Williams v Roffey Bros & Nicholls (Contractors) Ltd,Williams v Roffey Bros & Nicholls (Contractors) Ltd,VERIFIED,,real,True
+claude-opus,PRB-02,0,(1884) 9 App Cas 605,Foakes v Beer,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-08,0,[2013] EWHC 111 (QB),Yam Seng Pte Ltd v International Trade Corp Ltd,Yam Seng PTE Ltd v International Trade Corporation Ltd,VERIFIED,,real,True
+claude-opus,FAB-08,0,[2013] 1 All ER (Comm) 1321,Yam Seng Pte Ltd v International Trade Corp Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-08,0,[2019] EWHC 606 (QB),Bates v Post Office Ltd (No 3),"Bates & Ors v Post Office Ltd ((No.3) ""Common Issues"")",VERIFIED,,real,True
+claude-opus,FAB-08,0,[2015] UKSC 72,Marks and Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd,Marks and Spencer plc v BNP Paribas Securities Services Trust Company (Jersey) Limited and another,VERIFIED,,real,True
+claude-opus,FAB-08,0,[2016] AC 742,Marks and Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-08,0,[2013] EWCA Civ 200,Mid Essex Hospital Services NHS Trust v Compass Group UK and Ireland Ltd,Mid Essex Hospital Services NHS Trust v Compass Group UK and Ireland Ltd (t/a Medirest),VERIFIED,,real,True
+claude-opus,FAB-08,0,[2019] EWHC 2322 (Ch),UTB LLC v Sheffield United Ltd,UTB LLC v Sheffield United Ltd & Ors,VERIFIED,,real,True
+claude-opus,FAB-08,0,[2015] UKSC 17,Braganza v BP Shipping Ltd,Braganza v BP Shipping Limited and another,VERIFIED,,real,True
+claude-opus,FAB-08,0,[2015] 1 WLR 1661,Braganza v BP Shipping Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,CIT-13,0,[1990] 2 AC 605,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-04,0,[2021] UKSC 5,Uber BV v Aslam,Uber BV v Aslam,VERIFIED,,real,True
+claude-opus,HOL-04,0,[2021] ICR 657,Uber BV v Aslam,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-04,0,[2011] UKSC 41,Autoclenz Ltd v Belcher,Autoclenz Limited v Belcher and others,VERIFIED,,real,True
+claude-opus,HOL-04,0,[2011] ICR 1157,Autoclenz Ltd v Belcher,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,CIT-26,0,(1854) 9 Exch 341,Hadley v Baxendale,Hadley v Baxendale,VERIFIED,,real,True
+claude-opus,CIT-07,0,[2015] UKSC 36,Arnold v Britton,Arnold v Britton,VERIFIED,,real,True
+claude-opus,CIT-07,0,[2015] AC 1619,Arnold v Britton,Arnold v Britton,VERIFIED,,real,True
+claude-opus,CIT-06,0,[2015] UKSC 67,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-opus,CIT-06,0,[2016] AC 1172,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-opus,PRB-05,0,[2011] UKSC 41,Autoclenz Ltd v Belcher,Autoclenz Limited v Belcher and others,VERIFIED,,real,True
+claude-opus,PRB-05,0,[2011] ICR 1157,Autoclenz Ltd v Belcher,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-05,0,[2021] UKSC 5,Uber BV v Aslam,Uber BV v Aslam,VERIFIED,,real,True
+claude-opus,PRB-05,0,[2021] ICR 657,Uber BV v Aslam,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-05,0,[2023] UKSC 43,Independent Workers' Union of Great Britain v Central Arbitration Committee,Independent Workers Union of Great Britain v Central Arbitration Committee and another,VERIFIED,,real,True
+claude-opus,PRB-05,0,[2024] ICR 189,Independent Workers' Union of Great Britain v Central Arbitration Committee,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-05,0,[2021] EWCA Civ 952,,,CITED_NAME_UNKNOWN,r,real,True
+claude-opus,PRB-05,0,[2018] UKSC 29,Pimlico Plumbers Ltd v Smith,Pimlico Plumbers Ltd and another v Smith,VERIFIED,,real,True
+claude-opus,PRB-05,0,[2018] ICR 1511,Pimlico Plumbers Ltd v Smith,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-03,0,[1934] 2 KB 394,L'Estrange v F Graucob Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-03,0,[1949] 1 KB 532,Olley v Marlborough Court Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-03,0,[1971] 2 QB 163,Thornton v Shoe Lane Parking Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-03,0,[1989] QB 433,Interfoto Picture Library Ltd v Stiletto Visual Programmes Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-03,0,[1964] 1 WLR 125,McCutcheon v David MacBrayne Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-03,0,[1975] QB 303,British Crane Hire Corp Ltd v Ipswich Plant Hire Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-03,0,[1979] 1 WLR 401,Butler Machine Tool Co Ltd v Ex-Cell-O Corp (England) Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-03,0,[2009] EWCA Civ 1209,Tekdata Intercommunications Ltd v Ampenol Ltd,Tekdata Interconnections Ltd v Amphenol Ltd,VERIFIED,,real,True
+claude-opus,FAB-04,0,[1995] 2 AC 207,White v Jones,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-04,0,[1980] Ch 297,Ross v Caunters,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-04,0,[1988] 1 WLR 881,Clarke v Bruce Lance & Co,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-04,0,[1999] EWCA Civ 1489,Worby v Rosser,,NOT_FOUND,x,unknown,True
+claude-opus,OVR-01,0,[1982] QB 1053,R v Ghosh,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-01,0,[2017] UKSC 67,Ivey v Genting Casinos (UK) Ltd,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-opus,OVR-01,0,[2018] AC 391,Ivey v Genting Casinos (UK) Ltd,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-opus,OVR-01,0,[2020] EWCA Crim 575,R v Barton and Booth,Booth & Anor v R.,VERIFIED,,real,True
+claude-opus,OVR-01,0,[2021] QB 685,R v Barton and Booth,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-10,0,[2024] UKSC 33,Tindall v Chief Constable of Thames Valley Police,Tindall v Chief Constable of Thames Valley Police,VERIFIED,,real,True
+claude-opus,HOL-10,0,[2015] UKSC 2,Michael v Chief Constable of South Wales Police,Michael and others v The Chief Constable of South Wales Police and another,VERIFIED,,real,True
+claude-opus,HOL-10,0,[2015] AC 1732,Michael v Chief Constable of South Wales Police,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-10,0,[2018] UKSC 4,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-opus,HOL-10,0,[2018] AC 736,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-opus,HOL-10,0,[2001] QB 36,Kent v Griffiths,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,CIT-14,0,[1964] AC 465,Hedley Byrne & Co Ltd v Heller & Partners Ltd,Hedley Byrne & Co Ltd v Heller & Partners Ltd,VERIFIED,,real,True
+claude-opus,OVR-08,0,[1982] AC 341,Metropolitan Police Commissioner v Caldwell,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-08,0,[1983] 1 WLR 939,Elliott v C (A Minor),,NOT_FOUND,r,real,True
+claude-opus,OVR-08,0,[2003] UKHL 50,R v G,,CITED_NAME_UNKNOWN,r,real,True
+claude-opus,OVR-08,0,[2004] 1 AC 1034,R v G,,CITED_NAME_UNKNOWN,r,real,True
+claude-opus,OVR-06,0,[1957] 1 WLR 582,Bolam v Friern Hospital Management Committee,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-06,0,[2015] UKSC 11,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-opus,OVR-06,0,[2015] AC 1430,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-opus,OVR-06,0,[2004] UKHL 41,Chester v Afshar,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-06,0,[2005] 1 AC 134,Chester v Afshar,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-07,0,[1915] AC 79,Dunlop Pneumatic Tyre Co Ltd v New Garage and Motor Co Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-07,0,[2015] UKSC 67,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-opus,OVR-07,0,[2016] AC 1172,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-opus,CIT-20,0,[2021] UKSC 5,Uber BV v Aslam,Uber BV v Aslam,VERIFIED,,real,True
+claude-opus,CIT-20,0,[2021] ICR 657,Uber BV v Aslam,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,JUR-01,0,[1909] AC 488,Addis v Gramophone Co Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,JUR-01,0,[2001] 1 AC 268,Attorney-General v Blake,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,JUR-01,0,[2018] UKSC 20,Morris-Garner v One Step (Support) Ltd,Morris-Garner and another v One Step (Support) Ltd,VERIFIED,,real,True
+claude-opus,JUR-01,0,[2019] AC 649,Morris-Garner v One Step (Support) Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,JUR-01,0,[1964] AC 1129,Rookes v Barnard,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-01,0,[1964] AC 465,Hedley Byrne & Co Ltd v Heller & Partners Ltd,Hedley Byrne & Co Ltd v Heller & Partners Ltd,VERIFIED,,real,True
+claude-opus,PRB-01,0,[1990] 2 AC 605,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-01,0,[2006] UKHL 28,Customs and Excise Commissioners v Barclays Bank plc,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-01,0,[2007] 1 AC 181,Customs and Excise Commissioners v Barclays Bank plc,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-01,0,[1989] 1 WLR 29,Chaudhry v Prabhakar,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-01,0,[1990] 1 AC 831,Smith v Eric S Bush,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-01,0,[1997] AC 191,South Australia Asset Management Corp v York Montague Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-01,0,[2021] UKSC 20,Manchester Building Society v Grant Thornton UK LLP,Manchester Building Society v Grant Thornton UK LLP,VERIFIED,,real,True
+claude-opus,PRB-01,0,[2022] AC 783,Manchester Building Society v Grant Thornton UK LLP,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-01,0,[1956] 1 WLR 471,Philips v Ward,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-01,0,[1991] 1 WLR 1421,Watts v Morrow,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,CIT-25,0,[2025] UKSC 21,URS Corporation Ltd v BDW Trading Ltd,URS Corporation Ltd v BDW Trading Ltd,VERIFIED,,real,True
+claude-opus,CIT-11,0,[2007] UKHL 17,Stack v Dowden,Stack v Dowden,VERIFIED,,real,True
+claude-opus,CIT-11,0,[2007] 2 AC 432,Stack v Dowden,Stack v Dowden,VERIFIED,,real,True
+claude-opus,HOL-07,0,[2018] UKSC 24,Yes. In Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-opus,HOL-07,0,[2019] AC 119,Yes. In Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-opus,HOL-08,0,[1992] 4 All ER 363,Barclays Bank plc v Quincecare Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-08,0,[2019] UKSC 50,Singularis Holdings Ltd v Daiwa Capital Markets Europe Ltd,Singularis Holdings Ltd (In Official Liquidation) (A Company Incorporated in the Cayman Islands) v Daiwa Capital Markets Europe Ltd,VERIFIED,,real,True
+claude-opus,HOL-08,0,[2020] AC 1189,Singularis Holdings Ltd v Daiwa Capital Markets Europe Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-08,0,[2023] UKSC 25,Philipp v Barclays Bank UK plc,Philipp v Barclays Bank UK plc,VERIFIED,,real,True
+claude-opus,HOL-08,0,[2024] AC 346,Philipp v Barclays Bank UK plc,Philipp v Barclays Bank UK plc,VERIFIED,,real,True
+claude-opus,CIT-23,0,[2024] UKSC 33,Tindall v Chief Constable of Thames Valley Police,Tindall v Chief Constable of Thames Valley Police,VERIFIED,,real,True
+claude-opus,PRB-03,0,[2009] UKHL 18,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-03,0,[2009] 1 WLR 776,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-03,0,[2001] Ch 210,Gillett v Holt,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-03,0,[2008] UKHL 55,Cobbe v Yeoman's Row Management Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-03,0,[2008] 1 WLR 1752,Cobbe v Yeoman's Row Management Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-03,0,[2022] UKSC 27,Guest v Guest,Guest and another v Guest,VERIFIED,,real,True
+claude-opus,PRB-03,0,[2024] AC 833,Guest v Guest,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-03,0,[2002] EWCA Civ 159,Jennings v Rice,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-03,0,[2003] 1 P & CR 8,Jennings v Rice,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-03,0,[2016] EWCA Civ 463,Davies v Davies,Davies & Anor v Davies,VERIFIED,,real,True
+claude-opus,OVR-09,0,[2018] UKSC 41,No. Owens v Owens,Owens v Owens,VERIFIED,,real,True
+claude-opus,OVR-09,0,[2018] AC 899,No. Owens v Owens,Owens v Owens,VERIFIED,,real,True
+claude-opus,CIT-19,0,[2014] UKSC 45,FHR European Ventures LLP v Cedar Capital Partners LLC,FHR European Ventures LLP v Cedar Capital Partners LLC,VERIFIED,,real,True
+claude-opus,CIT-19,0,[2015] AC 250,FHR European Ventures LLP v Cedar Capital Partners LLC,FHR European Ventures LLP v Cedar Capital Partners LLC,VERIFIED,,real,True
+claude-opus,CIT-19,0,(1890) 45 Ch D 1,Lister & Co v Stubbs,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,CIT-19,0,[2011] EWCA Civ 347,Sinclair Investments (UK) Ltd v Versailles Trade Finance Ltd,Sinclair Investments (UK) Ltd v Versailles Trade Finance Ltd,VERIFIED,,real,True
+claude-opus,JUR-05,0,[2015] EWCA Civ 17,Best v Chief Land Registrar,"Best, R (On the Application Of) v The Secretary of State for Justice (Rev 1)",VERIFIED,,real,True
+claude-opus,JUR-05,0,[2016] QB 23,Best v Chief Land Registrar,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-03,0,[2018] UKSC 4,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-opus,HOL-03,0,[2018] AC 736,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-opus,HOL-03,0,[1990] 2 AC 605,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-06,0,[2015] UKSC 11,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-opus,HOL-06,0,[2015] AC 1430,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-opus,HOL-06,0,[1985] AC 871,Sidaway v Board of Governors of the Bethlem Royal Hospital,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-06,0,[2023] UKSC 26,McCulloch v Forth Valley Health Board,McCulloch and others v Forth Valley Health Board (Scotland),VERIFIED,,real,True
+claude-opus,HOL-06,0,[2023] 1 WLR 2329,McCulloch v Forth Valley Health Board,,NOT_FOUND,x,unknown,True
+claude-opus,FAB-01,0,[2015] UKSC 72,Marks and Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd,Marks and Spencer plc v BNP Paribas Securities Services Trust Company (Jersey) Limited and another,VERIFIED,,real,True
+claude-opus,FAB-01,0,[2016] AC 742,Marks and Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-05,0,[2012] EWCA Crim 2,R v Clinton,"Clinton, R. v",VERIFIED,,real,True
+claude-opus,FAB-05,0,[2013] QB 1,R v Clinton,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-05,0,[2013] EWCA Crim 322,R v Dawes,Dawes & Ors v R.,VERIFIED,,real,True
+claude-opus,FAB-05,0,[2014] 1 WLR 947,R v Dawes,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-04,0,[1969] 1 AC 191,Rondel v Worsley,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-04,0,[2000] UKHL 38,Arthur JS Hall & Co v Simons,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-04,0,[2002] 1 AC 615,Arthur JS Hall & Co v Simons,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-04,0,[1982] AC 529,Hunter v Chief Constable of the West Midlands Police,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,CIT-15,0,[1893] 1 QB 256,Carlill v Carbolic Smoke Ball Co,Carlill v Carbolic Smoke Ball Co,VERIFIED,,real,True
+claude-opus,OVR-05,0,[1978] AC 728,Anns v Merton London Borough Council,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-05,0,[1991] 1 AC 398,Murphy v Brentwood District Council,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-05,0,[1990] 2 AC 605,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-05,0,[2018] UKSC 4,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-opus,OVR-05,0,[2018] AC 736,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-opus,CIT-02,0,[2017] UKSC 67,Ivey v Genting Casinos (UK) Ltd (t/a Crockfords),Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-opus,CIT-02,0,[2018] AC 391,Ivey v Genting Casinos (UK) Ltd (t/a Crockfords),Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-opus,CIT-02,0,[1982] QB 1053,R v Ghosh,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,CIT-04,0,[2018] UKSC 4,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-opus,CIT-04,0,[2018] AC 736,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-opus,FAB-02,0,[2009] UKHL 18,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-02,0,[2009] 1 WLR 776,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-02,0,[2008] UKHL 55,Cobbe v Yeoman's Row Management Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-02,0,[2008] 1 WLR 1752,Cobbe v Yeoman's Row Management Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-02,0,[2001] Ch 210,Gillett v Holt,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-02,0,[2022] UKSC 27,Guest v Guest,Guest and another v Guest,VERIFIED,,real,True
+claude-opus,FAB-02,0,[2024] AC 833,Guest v Guest,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-02,0,[2017] UKSC 67,Ivey v Genting Casinos,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-opus,HOL-02,0,[2018] AC 391,Ivey v Genting Casinos,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-opus,HOL-02,0,[2020] EWCA Crim 575,R v Barton and Booth,Booth & Anor v R.,VERIFIED,,real,True
+claude-opus,HOL-02,0,[2021] QB 685,R v Barton and Booth,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-02,0,[1982] QB 1053,R v Ghosh,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,JUR-06,0,[1947] KB 130,Central London Property Trust Ltd v High Trees House Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,JUR-06,0,[1951] 2 KB 215,Combe v Combe,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-04,0,[2017] UKSC 67,Ivey v Genting Casinos,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-opus,PRB-04,0,[2018] AC 391,Ivey v Genting Casinos,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-opus,PRB-04,0,[2020] EWCA Crim 575,R v Barton and Booth,Booth & Anor v R.,VERIFIED,,real,True
+claude-opus,PRB-04,0,[2021] QB 685,R v Barton and Booth,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-04,0,[1974] AC 370,DPP v Ray,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,PRB-04,0,[1982] AC 449,R v Lambie,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,CIT-18,0,[1999] 1 AC 82,R v Woollin,R v Woollin,VERIFIED,,real,True
+claude-opus,CIT-03,0,[2015] UKSC 11,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-opus,CIT-03,0,[2015] AC 1430,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-opus,CIT-24,0,[2024] UKSC 20,R (Finch) v Surrey County Council,R (Finch) v Surrey County Council,VERIFIED,,real,True
+claude-opus,CIT-12,0,[1932] AC 562,Donoghue v Stevenson,Donoghue v Stevenson,VERIFIED,,real,True
+claude-opus,CIT-17,0,[1985] AC 809,Street v Mountford,Street v Mountford,VERIFIED,,real,True
+claude-opus,CIT-21,0,[2021] UKSC 21,Khan v Meadows,Khan v Meadows,VERIFIED,,real,True
+claude-opus,CIT-21,0,[2022] AC 852,Khan v Meadows,Khan v Meadows,VERIFIED,,real,True
+claude-opus,CIT-21,0,[2021] UKSC 20,Manchester Building Society v Grant Thornton,Manchester Building Society v Grant Thornton UK LLP,VERIFIED,,real,True
+claude-opus,CIT-08,0,[2016] UKSC 8,Ruddock v The Queen,R v Jogee,NAME_MISMATCH,r,real,True
+claude-opus,CIT-08,0,[2017] AC 387,Ruddock v The Queen,R v Jogee,NAME_MISMATCH,r,real,True
+claude-opus,CIT-01,0,[2016] UKSC 42,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-opus,CIT-01,0,[2017] AC 467,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-opus,OVR-02,0,[1994] 1 AC 340,Tinsley v Milligan,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-02,0,[2016] UKSC 42,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-opus,OVR-02,0,[2017] AC 467,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-opus,OVR-02,0,[2020] UKSC 42,Stoffel & Co v Grondona,Stoffel & Co v Grondona,VERIFIED,,real,True
+claude-opus,FAB-06,0,[2017] UKSC 29,Investment Trust Companies v HMRC,The Commissioners for Her Majesty’s Revenue and Customs v The Investment Trust Companies,VERIFIED,,real,True
+claude-opus,FAB-06,0,[2018] AC 275,Investment Trust Companies v HMRC,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-06,0,[2018] UKSC 39,Prudential Assurance Co Ltd v HMRC,Prudential Assurance Company Ltd v Commissioners for Her Majesty’s Revenue and Customs,VERIFIED,,real,True
+claude-opus,FAB-06,0,[2019] AC 929,Prudential Assurance Co Ltd v HMRC,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-06,0,[2013] UKSC 26,Pitt v Holt,Futter and another v The Commissioners for Her Majesty's Revenue and Customs,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-06,0,[2013] 2 AC 108,Pitt v Holt,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,FAB-06,0,[2022] EWHC 1172 (Comm),Tecnimont Arabia Ltd v National Westminster Bank plc,TECNIMONT ARABIA LIMITED v NATIONAL WESTMINSTER BANK PLC,VERIFIED,,real,True
+claude-opus,JUR-07,0,[1992] 2 AC 128,Walford v Miles,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,JUR-07,0,[1989] QB 433,Interfoto Picture Library Ltd v Stiletto Visual Programmes Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,JUR-07,0,[2013] EWCA Civ 200,Mid Essex Hospital Services NHS Trust v Compass Group UK and Ireland Ltd,Mid Essex Hospital Services NHS Trust v Compass Group UK and Ireland Ltd (t/a Medirest),VERIFIED,,real,True
+claude-opus,JUR-07,0,[2013] EWHC 111 (QB),Yam Seng Pte Ltd v International Trade Corp Ltd,Yam Seng PTE Ltd v International Trade Corporation Ltd,VERIFIED,,real,True
+claude-opus,JUR-07,0,[2013] 1 Lloyd's Rep 526,Yam Seng Pte Ltd v International Trade Corp Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,JUR-07,0,[2019] EWHC 606 (QB),Bates v Post Office Ltd (No 3),"Bates & Ors v Post Office Ltd ((No.3) ""Common Issues"")",VERIFIED,,real,True
+claude-opus,JUR-07,0,[2015] UKSC 17,Braganza v BP Shipping Ltd,Braganza v BP Shipping Limited and another,VERIFIED,,real,True
+claude-opus,JUR-07,0,[2015] 1 WLR 1661,Braganza v BP Shipping Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-01,0,[1994] 1 AC 340,Tinsley v Milligan,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,HOL-01,0,[2016] UKSC 42,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-opus,HOL-01,0,[2017] AC 467,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-opus,HOL-01,0,[2020] UKSC 43,Henderson v Dorset Healthcare University NHS Foundation Trust,Ecila Henderson v Dorset Healthcare University NHS Foundation Trust,VERIFIED,,real,True
+claude-opus,HOL-01,0,[2021] AC 563,Henderson v Dorset Healthcare University NHS Foundation Trust,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-03,0,[1999] 1 AC 1,R v English,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-03,0,[1985] AC 168,Chan Wing-Siu v The Queen,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,OVR-03,0,[2016] UKSC 8,R v Jogee,R v Jogee,VERIFIED,,real,True
+claude-opus,OVR-03,0,[2017] AC 387,R v Jogee,R v Jogee,VERIFIED,,real,True
+claude-opus,OVR-03,0,[2016] EWCA Crim 1613,R v Johnson,"Johnson & Ors, R. v (Rev 1)",VERIFIED,,real,True
+claude-opus,OVR-03,0,[2017] 4 WLR 104,R v Johnson,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,JUR-03,0,[1955] AC 197,Kuruma v The Queen,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,JUR-03,0,[1980] AC 402,R v Sang,,VERIFIED_FOOTPRINT,,real,True
+claude-opus,JUR-03,0,[1997] AC 558,R v Khan (Sultan),,VERIFIED_FOOTPRINT,,real,True
+claude-opus,CIT-16,0,[1991] 1 QB 1,Williams v Roffey Bros & Nicholls (Contractors) Ltd,Williams v Roffey Bros & Nicholls (Contractors) Ltd,VERIFIED,,real,True
+claude-sonnet,HOL-09,0,[2007] UKHL 17,Stack v Dowden,Stack v Dowden,VERIFIED,,real,True
+claude-sonnet,HOL-09,0,[2007] 2 AC 432,Stack v Dowden,Stack v Dowden,VERIFIED,,real,True
+claude-sonnet,HOL-09,0,[2011] UKSC 53,Jones v Kernott,Jones v Kernott,VERIFIED,,real,True
+claude-sonnet,HOL-09,0,[2012] 1 AC 776,Jones v Kernott,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-09,0,[1991] 1 AC 107,Lloyds Bank plc v Rosset,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,CIT-09,0,[2019] UKSC 41,,R (Miller) v The Prime Minister,VERIFIED,,real,True
+claude-sonnet,CIT-09,0,[2020] AC 373,,R (Miller) v The Prime Minister,VERIFIED,,real,True
+claude-sonnet,CIT-22,0,[2023] UKSC 25,Philipp v Barclays Bank UK plc,Philipp v Barclays Bank UK plc,VERIFIED,,real,True
+claude-sonnet,CIT-22,0,[2024] AC 1,Philipp v Barclays Bank UK plc,,NAME_MISMATCH,m,misattributed,True
+claude-sonnet,CIT-22,0,[1992] 4 All ER 363,Barclays Bank plc v Quincecare Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-10,0,[1991] UKHL 12,R v R,,CITED_NAME_UNKNOWN,r,real,True
+claude-sonnet,OVR-10,0,[1992] 1 AC 599,R v R,,CITED_NAME_UNKNOWN,r,real,True
+claude-sonnet,OVR-10,0,[1991] 2 WLR 1065,R v R,,NOT_FOUND,x,unknown,True
+claude-sonnet,HOL-05,0,[2015] UKSC 67,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-sonnet,HOL-05,0,[2016] AC 1172,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-sonnet,HOL-05,0,[1915] AC 79,Dunlop v New Garage,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,CIT-05,0,[2018] UKSC 24,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-sonnet,CIT-05,0,[2019] AC 119,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-sonnet,CIT-10,0,[2018] UKSC 41,Owens v Owens,Owens v Owens,VERIFIED,,real,True
+claude-sonnet,CIT-10,0,[2018] AC 899,Owens v Owens,Owens v Owens,VERIFIED,,real,True
+claude-sonnet,PRB-02,0,[1991] 1 QB 1,Williams v Roffey Bros & Nicholls (Contractors) Ltd,Williams v Roffey Bros & Nicholls (Contractors) Ltd,VERIFIED,,real,True
+claude-sonnet,PRB-02,0,[1995] 1 WLR 474,Re Selectmove Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-02,0,[2018] UKSC 24,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-sonnet,PRB-02,0,[2019] AC 119,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-sonnet,PRB-02,0,[2016] EWCA Civ 396,Globe Motors Inc v TRW Lucas Variety Electric Steering Ltd,"Globe Motors, Inc & Ors v TRW Lucas Varity Electric Steering Ltd & Anor",VERIFIED,,real,True
+claude-sonnet,PRB-02,0,[1947] KB 130,Central London Property Trust Ltd v High Trees House Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-02,0,[1951] 2 KB 215,Combe v Combe,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-02,0,[2003] UKHL 17,Actionstrength Ltd v International Glass Engineering,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-02,0,[2003] 2 AC 541,Actionstrength Ltd v International Glass Engineering,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-08,0,[2013] EWHC 111 (QB),Yam Seng Pte Ltd v International Trade Corp Ltd,Yam Seng PTE Ltd v International Trade Corporation Ltd,VERIFIED,,real,True
+claude-sonnet,FAB-08,0,[2013] 1 All ER (Comm) 1321,Yam Seng Pte Ltd v International Trade Corp Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-08,0,[2019] EWHC 606 (QB),Bates v Post Office Ltd (No 3),"Bates & Ors v Post Office Ltd ((No.3) ""Common Issues"")",VERIFIED,,real,True
+claude-sonnet,FAB-08,0,[2016] EWCA Civ 789,MSC Mediterranean Shipping Co SA v Cottonex Anstalt,MSC Mediterranean Shipping Company SA v Cottonex Anstalt,VERIFIED,,real,True
+claude-sonnet,FAB-08,0,[2018] EWHC 333 (Comm),Al Nehayan v Kent,Sheikh Tahnoon Bin Saeed Bin Shakhboot Al Nehayan v Kent,VERIFIED,,real,True
+claude-sonnet,FAB-08,0,[2022] UKSC 36,Candey Ltd v Crumpler,,NOT_FOUND,x,unknown,True
+claude-sonnet,FAB-08,0,[2015] UKSC 17,Braganza v BP Shipping Ltd,Braganza v BP Shipping Limited and another,VERIFIED,,real,True
+claude-sonnet,FAB-08,0,[2015] 1 WLR 1661,Braganza v BP Shipping Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,CIT-13,0,[1990] 2 AC 605,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,CIT-13,0,[1990] UKHL 2,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-04,0,[2021] UKSC 5,Uber BV v Aslam,Uber BV v Aslam,VERIFIED,,real,True
+claude-sonnet,HOL-04,0,[2021] ICR 657,Uber BV v Aslam,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-04,0,[2011] UKSC 41,Autoclenz Ltd v Belcher,Autoclenz Limited v Belcher and others,VERIFIED,,real,True
+claude-sonnet,HOL-04,0,[2011] ICR 1157,Autoclenz Ltd v Belcher,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,CIT-26,0,(1854) 9 Exch 341,Hadley v Baxendale,Hadley v Baxendale,VERIFIED,,real,True
+claude-sonnet,JUR-02,0,(1989) 91 Cr App R 161,R v Walsh,,NOT_FOUND,x,unknown,True
+claude-sonnet,JUR-02,0,(1988) 88 Cr App R 332,R v Absolam,,NOT_FOUND,x,unknown,True
+claude-sonnet,JUR-02,0,[1988] QB 615,R v Samuel,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,CIT-07,0,[2015] UKSC 36,Arnold v Britton,Arnold v Britton,VERIFIED,,real,True
+claude-sonnet,CIT-07,0,[2015] AC 1619,Arnold v Britton,Arnold v Britton,VERIFIED,,real,True
+claude-sonnet,CIT-06,0,[2015] UKSC 67,Cavendish Square Holding BV v Makdessi (joined with ParkingEye Ltd v Beavis),Cavendish Square Holding BV v Makdessi,VERIFIED,,real,True
+claude-sonnet,CIT-06,0,[2016] AC 1172,Cavendish Square Holding BV v Makdessi (joined with ParkingEye Ltd v Beavis),Cavendish Square Holding BV v Makdessi,VERIFIED,,real,True
+claude-sonnet,PRB-05,0,[2021] UKSC 5,Uber BV v Aslam,Uber BV v Aslam,VERIFIED,,real,True
+claude-sonnet,PRB-05,0,[2021] ICR 657,Uber BV v Aslam,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-05,0,[2011] UKSC 41,Autoclenz Ltd v Belcher,Autoclenz Limited v Belcher and others,VERIFIED,,real,True
+claude-sonnet,PRB-05,0,[2011] ICR 1157,Autoclenz Ltd v Belcher,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-05,0,[2018] UKSC 29,Pimlico Plumbers Ltd v Smith,Pimlico Plumbers Ltd and another v Smith,VERIFIED,,real,True
+claude-sonnet,PRB-05,0,[2018] ICR 1511,Pimlico Plumbers Ltd v Smith,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-05,0,[2023] UKSC 43,R (Independent Workers Union of Great Britain) v Central Arbitration Committee,Independent Workers Union of Great Britain v Central Arbitration Committee and another,VERIFIED,,real,True
+claude-sonnet,PRB-05,0,[2023] ICR 1,R (Independent Workers Union of Great Britain) v Central Arbitration Committee,,NAME_MISMATCH,m,misattributed,True
+claude-sonnet,PRB-05,0,[2016] EWCA Civ 459,Justice v Windle,Secretary of State for Justice v Windle & Arada,VERIFIED,,real,True
+claude-sonnet,PRB-05,0,[2021] EWCA Civ 1514,Stuart Delivery Ltd v Augustine,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-03,0,[1971] 2 QB 163,Thornton v Shoe Lane Parking Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-03,0,[1989] QB 433,Interfoto Picture Library Ltd v Stiletto Visual Programmes Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-03,0,[1956] 1 WLR 461,J Spurling Ltd v Bradshaw,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-03,0,[2018] EWCA Civ 1371,Goodlife Foods Ltd v Hall Fire Protection Ltd,Goodlife Foods Ltd v Hall Fire Protection Ltd,VERIFIED,,real,True
+claude-sonnet,FAB-04,0,[1995] 2 AC 207,White v Jones,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-04,0,[1980] Ch 297,Ross v Caunters,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-04,0,[1999] Ch 326,Carr-Glynn v Frearsons,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-04,0,[2000] 1 WLR 2129,Gorham v British Telecommunications plc,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-01,0,[2017] UKSC 67,,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-sonnet,OVR-01,0,[2018] AC 391,,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-sonnet,OVR-01,0,[1982] QB 1053,R v Ghosh,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-01,0,[2020] EWCA Crim 575,R v Barton and Booth,Booth & Anor v R.,VERIFIED,,real,True
+claude-sonnet,OVR-01,0,[2021] QB 685,R v Barton and Booth,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-10,0,[2024] UKSC 33,Tindall v Chief Constable of Thames Valley Police,Tindall v Chief Constable of Thames Valley Police,VERIFIED,,real,True
+claude-sonnet,HOL-10,0,[2015] UKSC 2,Michael v Chief Constable of South Wales Police,Michael and others v The Chief Constable of South Wales Police and another,VERIFIED,,real,True
+claude-sonnet,HOL-10,0,[2015] AC 1732,Michael v Chief Constable of South Wales Police,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-10,0,[2018] UKSC 4,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-sonnet,HOL-10,0,[2018] AC 736,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-sonnet,CIT-14,0,[1964] AC 465,Hedley Byrne & Co Ltd v Heller & Partners Ltd,Hedley Byrne & Co Ltd v Heller & Partners Ltd,VERIFIED,,real,True
+claude-sonnet,CIT-14,0,[1963] UKHL 4,Hedley Byrne & Co Ltd v Heller & Partners Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-08,0,[1982] AC 341,MPC v Caldwell,,NAME_MISMATCH,r,real,True
+claude-sonnet,OVR-08,0,[2003] UKHL 50,R v G,,CITED_NAME_UNKNOWN,r,real,True
+claude-sonnet,OVR-08,0,[2004] 1 AC 1034,R v G,,CITED_NAME_UNKNOWN,r,real,True
+claude-sonnet,OVR-08,0,[1983] 1 WLR 939,Elliott v C,,NOT_FOUND,r,real,True
+claude-sonnet,OVR-08,0,[1957] 2 QB 396,R v Cunningham,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-06,0,[1957] 1 WLR 582,Bolam v Friern Hospital Management Committee,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-06,0,[2015] UKSC 11,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-sonnet,OVR-06,0,[2015] AC 1430,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-sonnet,OVR-06,0,[1985] AC 871,,,CITED_NAME_UNKNOWN,r,real,True
+claude-sonnet,OVR-06,0,[2004] UKHL 41,Chester v Afshar,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-06,0,[2005] 1 AC 134,Chester v Afshar,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-07,0,[1915] AC 79,Dunlop Pneumatic Tyre Co Ltd v New Garage and Motor Co Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-07,0,[2015] UKSC 67,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-sonnet,OVR-07,0,[2016] AC 1172,ParkingEye Ltd v Beavis,Cavendish Square Holding BV v Makdessi,NAME_MISMATCH,r,real,True
+claude-sonnet,CIT-20,0,[2021] UKSC 5,Uber BV v Aslam,Uber BV v Aslam,VERIFIED,,real,True
+claude-sonnet,CIT-20,0,[2021] ICR 657,Uber BV v Aslam,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-01,0,[1909] AC 488,Addis v Gramophone Co Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-01,0,[2001] UKHL 13,Johnson v Unisys Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-01,0,[2003] 1 AC 518,Johnson v Unisys Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-01,0,[1964] AC 1129,Rookes v Barnard,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-01,0,[2001] UKHL 29,Kuddus v Chief Constable of Leicestershire,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-01,0,[2002] 2 AC 122,Kuddus v Chief Constable of Leicestershire,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-01,0,[2001] 1 AC 268,Attorney General v Blake,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-01,0,[2018] UKSC 20,Morris-Garner v One Step (Support) Ltd,Morris-Garner and another v One Step (Support) Ltd,VERIFIED,,real,True
+claude-sonnet,JUR-01,0,[2019] AC 649,Morris-Garner v One Step (Support) Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-01,0,[1964] AC 465,Hedley Byrne & Co Ltd v Heller & Partners Ltd,Hedley Byrne & Co Ltd v Heller & Partners Ltd,VERIFIED,,real,True
+claude-sonnet,PRB-01,0,[1990] 2 AC 605,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-01,0,[1990] 1 AC 831,Smith v Eric S Bush,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-01,0,[1989] 1 WLR 29,Chaudhry v Prabhakar,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-01,0,[1998] 1 WLR 830,Williams v Natural Life Health Foods Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-01,0,[1978] QB 574,Howard Marine & Dredging Co Ltd v A Ogden & Sons (Excavations) Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-01,0,[1956] 1 WLR 471,Philips v Ward,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-01,0,[1997] AC 191,South Australia Asset Management Corp v York Montague Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-01,0,[2021] UKSC 20,Manchester Building Society v Grant Thornton UK LLP,Manchester Building Society v Grant Thornton UK LLP,VERIFIED,,real,True
+claude-sonnet,PRB-01,0,[2022] AC 783,Manchester Building Society v Grant Thornton UK LLP,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,CIT-25,0,[2025] UKSC 21,URS Corporation Ltd v BDW Trading Ltd,URS Corporation Ltd v BDW Trading Ltd,VERIFIED,,real,True
+claude-sonnet,CIT-11,0,[2007] UKHL 17,Stack v Dowden,Stack v Dowden,VERIFIED,,real,True
+claude-sonnet,CIT-11,0,[2007] 2 AC 432,Stack v Dowden,Stack v Dowden,VERIFIED,,real,True
+claude-sonnet,CIT-11,0,[2011] UKSC 53,Jones v Kernott,Jones v Kernott,VERIFIED,,real,True
+claude-sonnet,CIT-11,0,[2012] 1 AC 776,Jones v Kernott,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-07,0,[2018] UKSC 18,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Dryden and others v Johnson Matthey Plc,NAME_MISMATCH,m,misattributed,True
+claude-sonnet,HOL-07,0,[2019] AC 119,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-sonnet,HOL-07,0,[2018] UKSC 24,,Rock Advertising Ltd v MWB Business Exchange Centres Ltd,VERIFIED,,real,True
+claude-sonnet,HOL-08,0,[1992] 4 All ER 363,Barclays Bank plc v Quincecare Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-08,0,[2019] UKSC 50,Singularis Holdings Ltd v Daiwa Capital Markets Europe Ltd,Singularis Holdings Ltd (In Official Liquidation) (A Company Incorporated in the Cayman Islands) v Daiwa Capital Markets Europe Ltd,VERIFIED,,real,True
+claude-sonnet,HOL-08,0,[2020] AC 1189,Singularis Holdings Ltd v Daiwa Capital Markets Europe Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-08,0,[2023] UKSC 25,Philipp v Barclays Bank UK plc,Philipp v Barclays Bank UK plc,VERIFIED,,real,True
+claude-sonnet,HOL-08,0,[2024] AC 1,Philipp v Barclays Bank UK plc,,NAME_MISMATCH,m,misattributed,True
+claude-sonnet,CIT-23,0,[2024] UKSC 33,Tindall v Chief Constable of Thames Valley Police,Tindall v Chief Constable of Thames Valley Police,VERIFIED,,real,True
+claude-sonnet,PRB-03,0,[2009] UKHL 18,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-03,0,[2009] 1 WLR 776,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-03,0,[2001] Ch 210,Gillett v Holt,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-03,0,[2016] EWCA Civ 463,Davies v Davies,Davies & Anor v Davies,VERIFIED,,real,True
+claude-sonnet,PRB-03,0,[2002] EWCA Civ 159,Jennings v Rice,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-03,0,[2022] UKSC 27,Guest v Guest,Guest and another v Guest,VERIFIED,,real,True
+claude-sonnet,PRB-03,0,[2022] AC 1223,Guest v Guest,,NOT_FOUND,m,misattributed,True
+claude-sonnet,PRB-03,0,[2019] EWCA Civ 890,Habberfield v Habberfield,Habberfield v Habberfield,VERIFIED,,real,True
+claude-sonnet,PRB-03,0,[2008] UKHL 55,Yeoman's Row Management Ltd v Cobbe,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-03,0,[2008] 1 WLR 1752,Yeoman's Row Management Ltd v Cobbe,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-09,0,[2018] UKSC 41,No. Owens v Owens,Owens v Owens,VERIFIED,,real,True
+claude-sonnet,OVR-09,0,[2018] AC 899,No. Owens v Owens,Owens v Owens,VERIFIED,,real,True
+claude-sonnet,CIT-19,0,[2014] UKSC 45,FHR European Ventures LLP v Cedar Capital Partners LLC,FHR European Ventures LLP v Cedar Capital Partners LLC,VERIFIED,,real,True
+claude-sonnet,CIT-19,0,[2015] AC 250,FHR European Ventures LLP v Cedar Capital Partners LLC,FHR European Ventures LLP v Cedar Capital Partners LLC,VERIFIED,,real,True
+claude-sonnet,JUR-05,0,[2002] UKHL 30,J A Pye (Oxford) Ltd v Graham,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-05,0,[2003] 1 AC 419,J A Pye (Oxford) Ltd v Graham,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-03,0,[2018] UKSC 4,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-sonnet,HOL-03,0,[2018] AC 736,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-sonnet,HOL-03,0,[1990] 2 AC 605,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-06,0,[2015] UKSC 11,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-sonnet,HOL-06,0,[2015] AC 1430,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-sonnet,HOL-06,0,[1985] AC 871,Sidaway v Board of Governors of the Bethlem Royal Hospital,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-01,0,[2015] UKSC 72,Marks and Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd,Marks and Spencer plc v BNP Paribas Securities Services Trust Company (Jersey) Limited and another,VERIFIED,,real,True
+claude-sonnet,FAB-01,0,[2016] AC 742,Marks and Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-01,0,[2009] UKPC 11,Attorney General of Belize v Belize Telecom Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-01,0,[2009] 1 WLR 1988,Attorney General of Belize v Belize Telecom Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-05,0,[2012] EWCA Crim 2,R v Clinton,"Clinton, R. v",VERIFIED,,real,True
+claude-sonnet,FAB-05,0,[2013] QB 1,R v Clinton,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-05,0,[2013] EWCA Crim 322,R v Dawes,Dawes & Ors v R.,VERIFIED,,real,True
+claude-sonnet,FAB-05,0,[2013] 1 WLR 5,R v Dawes,,NOT_FOUND,m,misattributed,True
+claude-sonnet,OVR-04,0,[1969] 1 AC 191,Rondel v Worsley,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-04,0,[2000] UKHL 38,Arthur J S Hall & Co v Simons,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-04,0,[2002] 1 AC 615,Arthur J S Hall & Co v Simons,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-04,0,[2005] UKHL 7,Moy v Pettman Smith,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-04,0,[2005] 1 WLR 581,Moy v Pettman Smith,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-04,0,[1982] AC 529,Hunter v Chief Constable of West Yorkshire,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-04,0,[1988] 1 WLR 1394,Somasundaram v M Julius Melchior & Co,,NOT_FOUND,r,real,True
+claude-sonnet,CIT-15,0,[1893] 1 QB 256,Carlill v Carbolic Smoke Ball Co,Carlill v Carbolic Smoke Ball Co,VERIFIED,,real,True
+claude-sonnet,OVR-05,0,[1978] AC 728,Anns v Merton London Borough Council,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-05,0,[1991] 1 AC 398,Murphy v Brent London Borough Council,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-05,0,[1990] 2 AC 605,Caparo Industries plc v Dickman,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-05,0,[1989] AC 177,,,CITED_NAME_UNKNOWN,r,real,True
+claude-sonnet,OVR-05,0,[2018] UKSC 4,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-sonnet,OVR-05,0,[2018] AC 736,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-sonnet,OVR-05,0,[1983] 1 AC 520,Junior Books Ltd v Veitchi Co Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,CIT-02,0,[2017] UKSC 67,,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-sonnet,CIT-02,0,[2018] AC 391,,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-sonnet,CIT-04,0,[2018] UKSC 4,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-sonnet,CIT-04,0,[2018] AC 736,Robinson v Chief Constable of West Yorkshire Police,Robinson v Chief Constable of West Yorkshire Police,VERIFIED,,real,True
+claude-sonnet,FAB-02,0,[2009] UKHL 18,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-02,0,[2009] 1 WLR 776,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-02,0,[2001] Ch 210,Gillett v Holt,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-02,0,[2002] EWCA Civ 159,Jennings v Rice,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-02,0,[2022] UKSC 27,Guest v Guest,Guest and another v Guest,VERIFIED,,real,True
+claude-sonnet,FAB-02,0,[2022] 3 WLR 911,Guest v Guest,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-02,0,[2017] UKSC 67,Ivey v Genting Casinos (UK) Ltd,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-sonnet,HOL-02,0,[2018] AC 391,Ivey v Genting Casinos (UK) Ltd,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-sonnet,HOL-02,0,[2020] EWCA Crim 575,R v Barton and Booth,Booth & Anor v R.,VERIFIED,,real,True
+claude-sonnet,HOL-02,0,[2021] QB 685,R v Barton and Booth,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-02,0,[1982] QB 1053,,,CITED_NAME_UNKNOWN,r,real,True
+claude-sonnet,JUR-06,0,(1875) LR 10,Currie v Misa,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-06,0,[1947] KB 130,Central London Property Trust Ltd v High Trees House Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-06,0,[1951] 2 KB 215,Combe v Combe,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-06,0,[2009] UKHL 18,Thorner v Major,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,PRB-04,0,[2017] UKSC 67,,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-sonnet,PRB-04,0,[2018] AC 391,,Ivey v Genting Casinos (UK) Ltd,VERIFIED,,real,True
+claude-sonnet,PRB-04,0,[2020] EWCA Crim 575,R v Barton and Booth,Booth & Anor v R.,VERIFIED,,real,True
+claude-sonnet,PRB-04,0,[2021] QB 685,R v Barton and Booth,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,CIT-18,0,[1999] 1 AC 82,R v Woollin,R v Woollin,VERIFIED,,real,True
+claude-sonnet,CIT-18,0,[1998] UKHL 28,R v Woollin,,NOT_FOUND,x,unknown,True
+claude-sonnet,CIT-03,0,[2015] UKSC 11,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-sonnet,CIT-03,0,[2015] AC 1430,Montgomery v Lanarkshire Health Board,Montgomery v Lanarkshire Health Board,VERIFIED,,real,True
+claude-sonnet,CIT-24,0,[2024] UKSC 20,R (Finch on behalf of the Weald Action Group) v Surrey County Council,R (Finch) v Surrey County Council,VERIFIED,,real,True
+claude-sonnet,CIT-24,0,[2024] 2 WLR 1209,R (Finch on behalf of the Weald Action Group) v Surrey County Council,,NOT_FOUND,m,misattributed,True
+claude-sonnet,CIT-12,0,[1932] AC 562,Donoghue v Stevenson,Donoghue v Stevenson,VERIFIED,,real,True
+claude-sonnet,CIT-17,0,[1985] AC 809,Street v Mountford,Street v Mountford,VERIFIED,,real,True
+claude-sonnet,CIT-21,0,[2021] UKSC 21,Khan v Meadows,Khan v Meadows,VERIFIED,,real,True
+claude-sonnet,CIT-21,0,[2022] AC 852,Khan v Meadows,Khan v Meadows,VERIFIED,,real,True
+claude-sonnet,FAB-07,0,[1991] 2 QB 297,Royscot Trust Ltd v Rogerson,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,CIT-08,0,[2016] UKSC 8,R v Jogee,R v Jogee,VERIFIED,,real,True
+claude-sonnet,CIT-08,0,[2017] AC 387,R v Jogee,R v Jogee,VERIFIED,,real,True
+claude-sonnet,CIT-08,0,[2016] UKPC 7,Ruddock v The Queen,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,CIT-01,0,[2016] UKSC 42,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-sonnet,CIT-01,0,[2017] AC 467,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-sonnet,OVR-02,0,[1994] 1 AC 340,Tinsley v Milligan,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-02,0,[2016] UKSC 42,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-sonnet,OVR-02,0,[2017] AC 467,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-sonnet,FAB-06,0,[1999] 1 AC 221,Cité v Parc (Battersea) Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-06,0,[2017] UKSC 29,Investment Trust Companies v HMRC,The Commissioners for Her Majesty’s Revenue and Customs v The Investment Trust Companies,VERIFIED,,real,True
+claude-sonnet,FAB-06,0,[2018] AC 275,Investment Trust Companies v HMRC,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,FAB-06,0,[2013] UKSC 50,Benedetti v Sawiris,Benedetti v Sawiris and others,VERIFIED,,real,True
+claude-sonnet,FAB-06,0,[2014] AC 938,Benedetti v Sawiris,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-07,0,[1992] 2 AC 128,Walford v Miles,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-07,0,[1989] QB 433,Interfoto Picture Library Ltd v Stiletto Visual Programmes Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-07,0,[2013] EWHC 111 (QB),Yam Seng Pte Ltd v International Trade Corp Ltd,Yam Seng PTE Ltd v International Trade Corporation Ltd,VERIFIED,,real,True
+claude-sonnet,JUR-07,0,[2013] 1 All ER (Comm) 1321,Yam Seng Pte Ltd v International Trade Corp Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-07,0,[2019] EWHC 606 (QB),Bates v Post Office Ltd (No 3),"Bates & Ors v Post Office Ltd ((No.3) ""Common Issues"")",VERIFIED,,real,True
+claude-sonnet,JUR-07,0,[2018] EWHC 333 (Comm),Al Nehayan v Kent,Sheikh Tahnoon Bin Saeed Bin Shakhboot Al Nehayan v Kent,VERIFIED,,real,True
+claude-sonnet,JUR-07,0,[2016] EWCA Civ 789,MSC Mediterranean Shipping Co SA v Cottonex Anstalt,MSC Mediterranean Shipping Company SA v Cottonex Anstalt,VERIFIED,,real,True
+claude-sonnet,JUR-07,0,[2015] UKSC 17,Braganza v BP Shipping Ltd,Braganza v BP Shipping Limited and another,VERIFIED,,real,True
+claude-sonnet,JUR-07,0,[2015] 1 WLR 1661,Braganza v BP Shipping Ltd,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,HOL-01,0,[2016] UKSC 42,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-sonnet,HOL-01,0,[2017] AC 467,Patel v Mirza,Patel v Mirza,VERIFIED,,real,True
+claude-sonnet,HOL-01,0,[1994] 1 AC 340,Tinsley v Milligan,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-03,0,[1985] AC 168,No. Under Chan Wing-Siu v The Queen,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-03,0,[1999] 1 AC 1,R v English,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,OVR-03,0,[2016] UKSC 8,R v Jogee,R v Jogee,VERIFIED,,real,True
+claude-sonnet,OVR-03,0,[2017] AC 387,R v Jogee,R v Jogee,VERIFIED,,real,True
+claude-sonnet,OVR-03,0,[2016] UKPC 7,Ruddock v The Queen,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-03,0,[1980] AC 402,R v Sang,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-03,0,[1997] AC 558,R v Khan (Sultan),,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,JUR-03,0,[2005] EWCA Crim 1089,R v Grant,Grant v R,VERIFIED,,real,True
+claude-sonnet,JUR-03,0,[2006] QB 60,R v Grant,,VERIFIED_FOOTPRINT,,real,True
+claude-sonnet,CIT-16,0,[1991] 1 QB 1,Williams v Roffey Bros & Nicholls (Contractors) Ltd,Williams v Roffey Bros & Nicholls (Contractors) Ltd,VERIFIED,,real,True
+claude-sonnet,CIT-16,0,[1990] EWCA Civ 5,Williams v Roffey Bros & Nicholls (Contractors) Ltd,,NOT_FOUND,x,unknown,True
+claude-sonnet,CIT-16,0,[1995] 1 WLR 474,Re Selectmove Ltd,,VERIFIED_FOOTPRINT,,real,True

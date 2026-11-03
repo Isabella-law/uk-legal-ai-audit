@@ -1,0 +1,47 @@
+{
+ "id": "J-35",
+ "status": "verified",
+ "court": "UKSC",
+ "neutral_citation": "[2026] UKSC 35",
+ "real_title": "ScottishPower (SCPL) Limited and others v Commissioners for His Majesty's Revenue and Customs",
+ "decision_date": "2026-10-21",
+ "anonymised_title": "The Energy Group Companies v HMRC",
+ "appeal_from": "Court of Appeal (England and Wales) [2025] EWCA Civ 3",
+ "facts": "The Appellant (HMRC) appeals against a Court of Appeal decision in favour of the Respondents, a group of energy companies. One Respondent (\"the Supplier\") held gas and electricity supply licences; the other three held generation licences. The energy regulator, GEMA (acting through Ofgem), conducted four investigations into the Supplier's breaches of licence conditions (mis-selling, payment-method cost reflectivity, complaints handling and billing) and of the Community Energy Saving Programme Order 2009 (SI 2009/1905). GEMA had power to impose penalties under s.27A Electricity Act 1989 and the Gas Act 1986, payable to the Consolidated Fund. Each investigation ended in a settlement agreement in 2013 to 2016 under which the Supplier admitted the breaches, agreed to pay sums to customers and charities (the \"Redress Payments\", about £28 million in total, some borne by other group companies), took remedial steps, and accepted a nominal £1 penalty. Ofgem's penalty policy provided for settlement discounts and said redress would be taken into account in setting any penalty. The Supplier agreed not to challenge the findings. Ofgem had indicated much larger penalties if the cases were contested (for example £23 million reducing to £18 million in the complaints case). It is common ground that a true penalty of that size would not be deductible in computing trading profits for corporation tax. The Respondents claimed the Redress Payments were deductible under the Corporation Tax Act 2009 ss.46 and 54(1)(a). The First-tier Tribunal found the Supplier had not been legally compelled to settle, but that absent settlement a penalty of the same order of magnitude would probably have been borne; it held the non-compensatory payments non-deductible but about £554,013 paid to mis-sold customers deductible. The Upper Tribunal allowed HMRC's appeal and held none of the payments deductible. The Court of Appeal allowed the Respondents' appeal and held all the Redress Payments deductible. HMRC appeals to the Supreme Court.",
+ "issues": [
+  {
+   "question": "Is expenditure on penalties imposed by a regulator non-deductible in computing trading profits because, on the construction of s.54(1)(a) CTA 2009, it is not incurred wholly and exclusively for the purposes of the trade, rather than because of a separate judge-made adjustment under s.46(1) CTA 2009?",
+   "actual_answer": "yes",
+   "accepted_answers": [
+    "yes"
+   ]
+  },
+  {
+   "question": "Are the Redress Payments paid under the settlement agreements, together with a nominal £1 penalty, to be treated like penalties and so non-deductible under s.54(1)(a) CTA 2009?",
+   "actual_answer": "yes",
+   "accepted_answers": [
+    "yes"
+   ]
+  },
+  {
+   "question": "Is the sum of about £554,013 paid to customers affected by mis-selling, which the First-tier Tribunal found to be compensatory, deductible even if the other Redress Payments are not?",
+   "actual_answer": "no",
+   "accepted_answers": [
+    "no"
+   ]
+  }
+ ],
+ "appellant_submissions": "HMRC submitted that penalties are non-deductible because, by their nature, they are not expenditure for the purposes of the trade within s.54(1)(a) CTA 2009; the rule is one of construction of that provision and not a separate judge-made adjustment under s.46(1). It relied on Strong v Woodifield, IRC v Warnes, IRC v von Glehn and McKnight v Sheppard. The payments here should be assessed on substance rather than form. The Supplier was not compelled to settle but did so to avoid substantially larger penalties; the First-tier Tribunal found the settlements were made in place of what might otherwise have been imposed. The decision notices linked the payments to the penalty that would otherwise have been imposed, and the payments were negotiated as a single package under the regulator's auspices. A nominal £1 penalty and the destination of the money do not change their character. Treating them differently would produce arbitrary results between taxpayers who settle and those who contest. The compensatory element was part of the same package, and the Upper Tribunal was right to avoid dividing up a single global settlement. Herald and Weekly Times (concerning tortious damages) has no application to regulatory penalties or redress.",
+ "respondent_submissions": "The Respondents submitted that the non-deductibility of penalties rests on a policy that would otherwise dilute the legislative scheme under which the penalty is imposed (McKnight, Lord Hoffmann). That is a rule that is separate from, and applies even where the payment satisfies, the purpose test in s.54(1)(a), and it operates as an adjustment under s.46(1). Such a judge-made rule should be narrowly confined and not extended to sums that are not in fact penalties; any extension is for Parliament. The Redress Payments were not penalties: only £1 was imposed, the payments were voluntary, were made to avoid litigation risk, reputational harm and management distraction, and were incurred wholly and exclusively for the purposes of the trade. They were akin to compensation for breach of a licence treated as contract-like, and the money went to customers and charities selected by the regulator, not to the Consolidated Fund. Some breaches were practically unavoidable incidents of trading (Herald and Weekly Times). The compensatory payment to mis-sold customers resembled damages and should be distinguished. Formal features should not be disregarded in favour of speculation about what might have been imposed.",
+ "legal_materials": "Corporation Tax Act 2009 s.46(1): profits of a trade must be calculated in accordance with generally accepted accounting practice, subject to any adjustment required or authorised by law. s.54(1)(a): in calculating trade profits, no deduction is allowed for expenses not incurred wholly and exclusively for the purposes of the trade. Electricity Act 1989 ss.25, 27A (penalties of an amount reasonable in all the circumstances, paid to the Consolidated Fund), 27B (penalties policy), 27G to 27N (consumer redress orders), 39 (compensation). GEMA Penalties Policy (2014) including settlement discounts. Authorities: Strong v Woodifield [1906] AC 448; IRC v Warnes [1919] 2 KB 444; IRC v Alexander von Glehn [1920] 2 KB 553; Herald and Weekly Times v FCT (1932) 48 CLR 113; Mallalieu v Drummond [1983] 2 AC 861; McKnight v Sheppard [1999] 1 WLR 1333; NCL Investments v HMRC [2022] UKSC 9; McLaren Racing v HMRC [2014] UKUT 269 (TCC).",
+ "actual_outcome": "allowed",
+ "majority": "5-0",
+ "actual_reasoning_summary": "The Supreme Court held that penalties are non-deductible because, by their nature (punishment of the taxpayer and deterrence), expenditure on them is not incurred for the purposes of the trade within s.54(1)(a); Lord Hoffmann's reference in McKnight to legislative policy was not a separate judge-made rule under s.46(1), so the Court of Appeal misread it. Looking at substance rather than form, the Redress Payments were not truly voluntary: the Supplier would otherwise have faced penalties of similar size, the decision notices linked the payments to the penalty that would have been imposed, and they were made in place of a penalty. They were therefore sufficiently akin to penalties to fall outside s.54(1)(a), regardless of the £1 penalty, the payees, or the accounting treatment. Herald and Weekly Times was irrelevant, and the £554,013 compensatory element was part of the same package and not to be treated differently. HMRC's appeal was allowed and the Upper Tribunal's decision restored.",
+ "outcome_evidence": "Para 100: \"We would therefore allow HMRC's appeal and restore the decision of the Upper Tribunal.\" Para 94: \"We have no doubt that the Redress Payments are sufficiently akin to penalties for it to be clear ... that they were not expenditure incurred for the purposes of ScottishPower's trade within the meaning of section 54(1)(a).\"",
+ "brief_written_by": "LLM brief-writer (claude-sonnet-5-5), checked by script",
+ "source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2026/35",
+ "verification": {
+  "outcome_quote_found_in_judgment": true,
+  "leak_terms": []
+ }
+}

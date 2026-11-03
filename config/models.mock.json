@@ -1,0 +1,4 @@
+[
+  {"name": "mock-a", "provider": "mock", "model": "mock", "knowledge_cutoff": "2024-01-01"},
+  {"name": "mock-b", "provider": "mock", "model": "mock", "knowledge_cutoff": "2024-01-01"}
+]

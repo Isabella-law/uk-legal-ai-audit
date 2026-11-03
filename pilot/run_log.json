@@ -1,0 +1,124 @@
+[
+ {
+  "task": "ac32f88885951a1af",
+  "model": "claude-haiku",
+  "batch": 1,
+  "status": "ok",
+  "answers": 22,
+  "served": [
+   "claude-haiku-5-5"
+  ],
+  "tools_used": [],
+  "forbidden_tool_use": false
+ },
+ {
+  "task": "a8881d19036c6f184",
+  "model": "claude-sonnet",
+  "batch": 1,
+  "status": "ok",
+  "answers": 22,
+  "served": [
+   "claude-sonnet-5-5"
+  ],
+  "tools_used": [
+   "SubagentHandback"
+  ],
+  "forbidden_tool_use": false
+ },
+ {
+  "task": "a0274816f0390c7b4",
+  "model": "claude-opus",
+  "batch": 1,
+  "status": "ok",
+  "answers": 22,
+  "served": [
+   "claude-opus-5-5"
+  ],
+  "tools_used": [
+   "SubagentHandback"
+  ],
+  "forbidden_tool_use": false
+ },
+ {
+  "task": "aac44c84168627c90",
+  "model": "claude-haiku",
+  "batch": 2,
+  "status": "ok",
+  "answers": 22,
+  "served": [
+   "claude-haiku-5-5"
+  ],
+  "tools_used": [],
+  "forbidden_tool_use": false
+ },
+ {
+  "task": "afd5c39708b04e1a8",
+  "model": "claude-sonnet",
+  "batch": 2,
+  "status": "ok",
+  "answers": 22,
+  "served": [
+   "claude-sonnet-5-5"
+  ],
+  "tools_used": [
+   "SubagentHandback"
+  ],
+  "forbidden_tool_use": false
+ },
+ {
+  "task": "aaff3611c0ecbf272",
+  "model": "claude-opus",
+  "batch": 2,
+  "status": "ok",
+  "answers": 22,
+  "served": [
+   "claude-opus-5-5"
+  ],
+  "tools_used": [
+   "SubagentHandback"
+  ],
+  "forbidden_tool_use": false
+ },
+ {
+  "task": "a30275ba11e078cab",
+  "model": "claude-haiku",
+  "batch": 3,
+  "status": "ok",
+  "answers": 22,
+  "served": [
+   "claude-haiku-5-5"
+  ],
+  "tools_used": [
+   "SubagentHandback"
+  ],
+  "forbidden_tool_use": false
+ },
+ {
+  "task": "a1058399b0d2ac61b",
+  "model": "claude-sonnet",
+  "batch": 3,
+  "status": "ok",
+  "answers": 22,
+  "served": [
+   "claude-sonnet-5-5"
+  ],
+  "tools_used": [
+   "SubagentHandback"
+  ],
+  "forbidden_tool_use": false
+ },
+ {
+  "task": "a0ff4f5031b2f9784",
+  "model": "claude-opus",
+  "batch": 3,
+  "status": "ok",
+  "answers": 22,
+  "served": [
+   "claude-opus-5-5"
+  ],
+  "tools_used": [
+   "SubagentHandback"
+  ],
+  "forbidden_tool_use": false
+ }
+]

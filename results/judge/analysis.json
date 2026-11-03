@@ -1,0 +1,102 @@
+{
+ "claude-haiku": {
+  "acc": 3,
+  "n": 8,
+  "acc_unrecognised": "3/8",
+  "predicted": {
+   "allowed_in_part": 2,
+   "dismissed": 6
+  },
+  "wrong": [
+   [
+    "J-28",
+    "R v Sheikh and others",
+    "allowed_in_part",
+    "allowed"
+   ],
+   [
+    "J-30",
+    "Augustine v Data Cars Limited",
+    "dismissed",
+    "allowed"
+   ],
+   [
+    "J-31",
+    "Avon Freeholds Limited v Cresta Court E ",
+    "dismissed",
+    "allowed"
+   ],
+   [
+    "J-35",
+    "ScottishPower (SCPL) Limited and others ",
+    "allowed_in_part",
+    "allowed"
+   ],
+   [
+    "J-36",
+    "The Kingdom of Spain and another v The L",
+    "dismissed",
+    "allowed"
+   ]
+  ],
+  "recognised": [],
+  "mean_conf": 0.53
+ },
+ "claude-sonnet": {
+  "acc": 5,
+  "n": 8,
+  "acc_unrecognised": "5/8",
+  "predicted": {
+   "dismissed": 5,
+   "allowed": 2,
+   "allowed_in_part": 1
+  },
+  "wrong": [
+   [
+    "J-28",
+    "R v Sheikh and others",
+    "dismissed",
+    "allowed"
+   ],
+   [
+    "J-35",
+    "ScottishPower (SCPL) Limited and others ",
+    "dismissed",
+    "allowed"
+   ],
+   [
+    "J-36",
+    "The Kingdom of Spain and another v The L",
+    "allowed_in_part",
+    "allowed"
+   ]
+  ],
+  "recognised": [],
+  "mean_conf": 0.65
+ },
+ "claude-opus": {
+  "acc": 8,
+  "n": 8,
+  "acc_unrecognised": "5/5",
+  "predicted": {
+   "allowed": 5,
+   "dismissed": 3
+  },
+  "wrong": [],
+  "recognised": [
+   [
+    "J-30",
+    "Augustine v Data Cars Ltd"
+   ],
+   [
+    "J-35",
+    "HMRC v ScottishPower (SPUK) Ltd and others"
+   ],
+   [
+    "J-36",
+    "London Steam-Ship Owners' Mutual Insurance Association Ltd v Kingdom of Spain and French State (The Prestige)"
+   ]
+  ],
+  "mean_conf": 0.63
+ }
+}

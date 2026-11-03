@@ -1,0 +1,334 @@
+<title>Fictitious Authorities</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single reading column, like a law report, that widens for the result tables and the evidence explorer. Citations are set in mono as first-class objects. */
+:root{
+  --paper:#f4f5f1; --sheet:#fbfbf8; --ink:#17211d; --muted:#5d6862; --rule:#d9ddd5;
+  --accent:#1d5c4a;            /* court green: verified */
+  --wrong:#9b2f2a;             /* wrong reference */
+  --unk:#8a6512;               /* unverifiable */
+  --tint-ok:#e3eee8; --tint-wrong:#f5e4e1; --tint-unk:#f4ecd9;
+  --display:"Libre Caslon Text", Georgia, "Times New Roman", serif;
+  --body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#121714; --sheet:#181e1b; --ink:#e6ebe7; --muted:#9aa59f; --rule:#2c3530;
+  --accent:#6fc2a5; --wrong:#e5847b; --unk:#d9b45e;
+  --tint-ok:#1b2e27; --tint-wrong:#35201e; --tint-unk:#31291a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#121714; --sheet:#181e1b; --ink:#e6ebe7; --muted:#9aa59f; --rule:#2c3530;
+  --accent:#6fc2a5; --wrong:#e5847b; --unk:#d9b45e;
+  --tint-ok:#1b2e27; --tint-wrong:#35201e; --tint-unk:#31291a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font:16px/1.6 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.col{max-width:720px;margin:0 auto}
+.wide{max-width:1080px;margin:0 auto}
+h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;line-height:1.2;margin:0}
+h1{font-size:clamp(2.1rem,5vw,3.3rem)}
+h2{font-size:clamp(1.5rem,3vw,2rem)}
+h3{font-size:1.15rem}
+p{margin:0}
+.eyebrow{font:600 .72rem/1.2 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.cit{font-family:var(--mono);font-size:.88em;white-space:nowrap}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section{padding-block:56px 0}
+.stack{display:flex;flex-direction:column;gap:16px}
+.muted{color:var(--muted)}
+.small{font-size:.86rem}
+
+/* hero */
+header{padding-block:56px 8px}
+.byline{font-size:.9rem;color:var(--muted)}
+.thesis{font-family:var(--display);font-size:clamp(1.15rem,2.4vw,1.4rem);line-height:1.45}
+.specimen{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:20px;display:flex;flex-direction:column;gap:12px}
+.spec-row{display:grid;grid-template-columns:110px 1fr;gap:12px;align-items:baseline}
+.spec-row > *{min-width:0}
+.spec-k{font:600 .72rem/1.4 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.strike{text-decoration:line-through;text-decoration-color:var(--wrong);text-decoration-thickness:2px;color:var(--wrong)}
+.figures{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.fig{background:var(--sheet);padding:16px}
+.fig b{display:block;font:400 2rem/1.1 var(--display);font-variant-numeric:tabular-nums}
+.fig span{font-size:.82rem;color:var(--muted)}
+@media (max-width:640px){.figures{grid-template-columns:repeat(2,1fr)}.spec-row{grid-template-columns:1fr;gap:2px}}
+
+/* pilot notice */
+.notice{border-left:3px solid var(--unk);background:var(--tint-unk);padding:12px 16px;border-radius:0 6px 6px 0;font-size:.92rem}
+
+/* method steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.step{border-top:2px solid var(--ink);padding-top:12px;display:flex;flex-direction:column;gap:6px}
+.step .n{font:500 .8rem var(--mono);color:var(--muted)}
+@media (max-width:720px){.steps{grid-template-columns:1fr}}
+
+/* tables */
+.tablewrap{overflow-x:auto;border:1px solid var(--rule);border-radius:6px;background:var(--sheet)}
+table{border-collapse:collapse;width:100%;font-size:.9rem;font-variant-numeric:tabular-nums}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--rule);vertical-align:middle}
+thead th{font:600 .74rem var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--paper)}
+tbody tr:last-child td,tbody tr:last-child th{border-bottom:0}
+tbody th{font-weight:500}
+.bar{display:grid;grid-template-columns:1fr auto;align-items:center;gap:10px;min-width:150px}
+.track{height:6px;background:var(--rule);border-radius:3px;position:relative;overflow:hidden}
+.track i{position:absolute;inset:0 auto 0 0;background:var(--accent);border-radius:3px}
+.track.neg i{background:var(--wrong)}
+.ci{display:block;font-size:.74rem;color:var(--muted)}
+
+/* chips */
+.chip{display:inline-flex;align-items:center;gap:6px;font:500 .74rem/1 var(--body);padding:4px 8px;border-radius:999px;white-space:nowrap}
+.chip::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.c-real{background:var(--tint-ok);color:var(--accent)}
+.c-wrong,.c-fabricated{background:var(--tint-wrong);color:var(--wrong)}
+.c-unknown,.c-unverifiable{background:var(--tint-unk);color:var(--unk)}
+
+/* error gallery */
+.errors{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.err{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.err .case{font-family:var(--display);font-style:italic}
+.err .line{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline}
+@media (max-width:720px){.errors{grid-template-columns:1fr}}
+
+/* judge grid */
+.verdict{font:500 .8rem var(--body);padding:3px 8px;border-radius:4px;display:inline-block;white-space:nowrap}
+.v-hit{background:var(--tint-ok);color:var(--accent)}
+.v-miss{background:var(--tint-wrong);color:var(--wrong)}
+.casename{font-family:var(--display);font-style:italic}
+details.judg{border-top:1px solid var(--rule)}
+details.judg summary{cursor:pointer;padding:10px 0;font-weight:500;list-style:none;display:flex;justify-content:space-between;gap:8px}
+details.judg summary::-webkit-details-marker{display:none}
+details.judg summary::after{content:"+";color:var(--muted);font-family:var(--mono)}
+details.judg[open] summary::after{content:"−"}
+.jtext{white-space:pre-wrap;font-size:.88rem;background:var(--paper);border-radius:6px;padding:12px;margin-bottom:12px;max-height:340px;overflow:auto}
+
+/* explorer */
+.controls{display:flex;flex-wrap:wrap;gap:12px;align-items:end}
+.controls label{display:flex;flex-direction:column;gap:4px;font-size:.78rem;color:var(--muted);font-weight:500}
+select,input[type=search]{font:inherit;font-size:.92rem;padding:8px 10px;border:1px solid var(--rule);border-radius:6px;background:var(--sheet);color:var(--ink)}
+input[type=search]{min-width:220px}
+.qlist{display:flex;flex-direction:column;gap:10px}
+.q{background:var(--sheet);border:1px solid var(--rule);border-radius:6px}
+.q > summary{cursor:pointer;padding:14px 16px;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:baseline;list-style:none}
+.q > summary::-webkit-details-marker{display:none}
+.q > summary > *{min-width:0}
+.qid{font:500 .78rem var(--mono);color:var(--muted)}
+.grades{display:flex;gap:4px}
+.g{font:600 .7rem var(--mono);width:26px;text-align:center;padding:3px 0;border-radius:4px}
+.g-good{background:var(--tint-ok);color:var(--accent)}
+.g-mid{background:var(--tint-unk);color:var(--unk)}
+.g-bad{background:var(--tint-wrong);color:var(--wrong)}
+.qbody{padding:0 16px 16px;display:flex;flex-direction:column;gap:14px}
+.kp{font-size:.86rem;color:var(--muted);margin:0;padding-left:18px}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--rule);flex-wrap:wrap}
+.tabs button{font:500 .86rem var(--body);background:none;border:0;border-bottom:2px solid transparent;padding:8px 10px;color:var(--muted);cursor:pointer}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+.answer{white-space:pre-wrap;font-size:.9rem;line-height:1.6}
+.citlist{display:flex;flex-direction:column;gap:6px}
+.citrow{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:baseline;font-size:.84rem}
+.citrow > *{min-width:0}
+.gradenote{font-size:.86rem;border-left:3px solid var(--rule);padding-left:10px}
+.gradenote.serious{border-color:var(--wrong)}
+.count{font-size:.86rem;color:var(--muted)}
+footer{padding-top:64px;font-size:.84rem;color:var(--muted)}
+@media (max-width:560px){.q > summary{grid-template-columns:1fr auto}.q > summary .qid{grid-column:1/-1}}
+@media (prefers-reduced-motion:no-preference){.track i{transition:width .6s ease}}
+</style>
+
+<header class="col stack">
+  <p class="eyebrow">Working paper · pilot results · 3 November 2026</p>
+  <h1>Fictitious Authorities?</h1>
+  <p class="thesis">An empirical audit of how large language models cite the law of England and Wales, checked against the official record, plus a test of whether they can decide Supreme Court appeals they have never seen.</p>
+  <p class="byline">LLB research project, City St George's, University of London</p>
+</header>
+
+<section class="col stack" style="padding-top:24px">
+  <div class="specimen" aria-label="Example of how one citation was checked">
+    <p class="eyebrow">One citation, checked</p>
+    <div class="spec-row"><span class="spec-k">Model wrote</span><span><span class="casename">Philipp v Barclays Bank UK plc</span> [2023] UKSC 25, <span class="cit strike">[2024] AC 1</span></span></div>
+    <div class="spec-row"><span class="spec-k">Find Case Law</span><span><span class="cit">[2024] AC 1</span> exists, but no judgment cites it with “Philipp”. <span class="cit">[2024] AC 346</span> is cited with “Philipp” in 2 judgments.</span></div>
+    <div class="spec-row"><span class="spec-k">Verdict</span><span><span class="chip c-wrong">real case, wrong reference</span></span></div>
+  </div>
+  <div class="figures" id="figures"></div>
+</section>
+
+<section class="col stack">
+  <p class="notice"><b>Pilot.</b> Three models from one family were tested: Claude Haiku 5.5, Sonnet 5.5 and Opus 5.5. Prompts were batched rather than sent one question per API call. Answer grades are provisional and were assigned by an AI reviewer pending blind re-grading by the author and a second marker. All raw outputs and evidence are below.</p>
+</section>
+
+<section class="col stack">
+  <p class="eyebrow">Why</p>
+  <h2>Courts are already dealing with AI-invented case law</h2>
+  <p>In <span class="casename">R (Ayinde) v London Borough of Haringey</span> <span class="cit">[2025] EWHC 1383 (Admin)</span>, the Divisional Court addressed fictitious authorities in proceedings. Judges were still citing it as recently as this week. Yet nobody has measured, in public and repeatably, how often current models get English citations wrong, or how. This project builds that measurement.</p>
+</section>
+
+<section class="wide stack">
+  <div class="col stack" style="margin:0">
+    <p class="eyebrow">Method</p>
+    <h2>Every citation goes through three checks</h2>
+    <p class="muted">Each answer is scanned for neutral citations and law-report references. Each one is then checked against The National Archives' Find Case Law service, in this order.</p>
+  </div>
+  <div class="steps">
+    <div class="step"><span class="n">Tier 1 · direct</span><h3>Resolve the neutral citation</h3><p class="small">For example, <span class="cit">[2016] UKSC 42</span> opens <span class="casename">Patel v Mirza</span>. The party name must match.</p></div>
+    <div class="step"><span class="n">Tier 2 · footprint</span><h3>Look for it in later judgments</h3><p class="small">Find Case Law is missing <span class="casename">Ivey</span>, <span class="casename">Jogee</span> and every House of Lords judgment. A real citation is still cited by later judges, together with its party name. An invented one is not.</p></div>
+    <div class="step"><span class="n">Tier 3 · review</span><h3>Check whatever is left by hand</h3><p class="small">Name mismatches and citations with no trace go to review. Each verdict records its evidence.</p></div>
+  </div>
+</section>
+
+<section class="wide stack">
+  <div class="col stack" style="margin:0">
+    <p class="eyebrow">Study 1 · 66 questions × 3 models</p>
+    <h2>No invented cases. Wrong references instead.</h2>
+    <p>The question bank tests six failure modes: citation recall, stating the holding, overruled law (<span class="casename">Ghosh</span>, <span class="casename">Tinsley</span>, <span class="casename">Caldwell</span>, <span class="casename">Anns</span>…), cases and provisions that do not exist, US and Scots law leaking in, and realistic problem questions.</p>
+  </div>
+  <div class="tablewrap"><table id="t1"></table></div>
+  <p class="small muted">95% Wilson intervals in grey. Answer quality is the percentage of available marks on the holding, jurisdiction and problem questions.</p>
+</section>
+
+<section class="wide stack">
+  <div class="col stack" style="margin:0">
+    <p class="eyebrow">Error gallery</p>
+    <h2>The mistakes a lazy check would pass</h2>
+    <p>Each of these cases is real, so checking that the case exists would pass all of them. The reference is wrong, so anyone who looks it up finds a different case.</p>
+  </div>
+  <div class="errors" id="errors"></div>
+</section>
+
+<section class="wide stack">
+  <div class="col stack" style="margin:0">
+    <p class="eyebrow">Study 2 · the AI judge</p>
+    <h2>Eight real appeals the models had never seen</h2>
+    <p>These Supreme Court judgments were handed down between July and October 2026, after the models' training cutoffs. Each model received an outcome-free brief (anonymised facts, neutral issues, both sides' submissions) and had to decide the appeal. Always predicting “allowed” scores 62.5%.</p>
+  </div>
+  <div class="tablewrap"><table id="t2"></table></div>
+  <p class="small muted" id="t2note"></p>
+  <div class="col stack" style="margin:0" id="judgments"></div>
+</section>
+
+<section class="wide stack" id="explorer">
+  <div class="col stack" style="margin:0">
+    <p class="eyebrow">Evidence</p>
+    <h2>Every question, answer and citation</h2>
+    <p class="muted">Open a question to read each model's verbatim answer, its grade with reasons, and the verdict on every citation it gave.</p>
+  </div>
+  <div class="controls">
+    <label for="f-cat">Category<select id="f-cat"><option value="">All categories</option></select></label>
+    <label for="f-show">Show<select id="f-show"><option value="">All questions</option><option value="err">Any model made an error</option><option value="cit">Has a flagged citation</option></select></label>
+    <label for="f-q">Search<input id="f-q" type="search" placeholder="Case name or citation"></label>
+  </div>
+  <p class="count" id="count"></p>
+  <div class="qlist" id="qlist"></div>
+</section>
+
+<section class="col stack">
+  <p class="eyebrow">Limits</p>
+  <h2>What this pilot cannot show yet</h2>
+  <ul class="stack" style="padding-left:20px;margin:0;gap:8px">
+    <li>One model family and one run per question. The full protocol (one question per API call, three repeats, GPT and Gemini models) is built into the tool.</li>
+    <li>The grades come from an AI reviewer of the same model family, so self-preference bias is possible. Blind re-grading by humans, with inter-rater agreement reported, is the next step.</li>
+    <li>Study 2 has only eight cases. The briefs were drafted by an LLM that knew the outcome, though checked for leaks by script. Opus said it recognised three cases, probably from the lower-court stages.</li>
+    <li>Nine citations could not be confirmed without Westlaw or Lexis and are reported as unverifiable, not as correct.</li>
+  </ul>
+</section>
+
+<footer class="col stack">
+  <p>All results on this page come from the project's raw run files. Every run's serving model and tool calls were logged: <span id="runlog"></span></p>
+  <p>Case law: The National Archives, Find Case Law, used under the Open Justice Licence.</p>
+</footer>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+const D = JSON.parse(document.getElementById('data').textContent);
+const M = ["claude-haiku","claude-sonnet","claude-opus"];
+const LABEL = {"claude-haiku":"Haiku 5.5","claude-sonnet":"Sonnet 5.5","claude-opus":"Opus 5.5"};
+const CAT = {citation_recall:"Citation recall",holding:"Holding",overruled_trap:"Overruled law",fabricated_trap:"Fake authority",jurisdiction_trap:"Jurisdiction",problem_question:"Problem question"};
+const STATUS = {real:"verified",wrong:"wrong reference",fabricated:"fabricated",unknown:"unverifiable",unverifiable:"unverifiable"};
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const S = Object.fromEntries(D.summary.map(r => [r.model, r]));
+
+// headline figures
+const allC = D.questions.flatMap(q => M.flatMap(m => q.ans[m].cits));
+const nWrong = allC.filter(c => c.s === "wrong").length, nFab = allC.filter(c => c.s === "fabricated").length;
+const opus = D.cases.filter(c => c.preds["claude-opus"]?.o === c.actual).length;
+document.getElementById("figures").innerHTML = [
+  [allC.length, "citations checked"], [nFab, "invented cases"], [nWrong, "real cases, wrong reference"], [opus + "/8", "appeals Opus decided as the Court did"]
+].map(([b, s]) => `<div class="fig"><b>${b}</b><span>${s}</span></div>`).join("");
+
+// study 1 table
+const rows = [
+  ["cit_fabricated","Invented cases",false],["cit_misattributed","Real case, wrong reference",false],["cit_unknown","Unverifiable",false],
+  ["citation_recall","Citation recall",true],["fabricated_trap","Fake authority flagged",true],["overruled_trap","Overruled law caught",true],
+  ["quality","Answer quality",true],["serious_error","Serious legal errors",false]];
+const cell = (r, k, good) => {
+  const p = +r[k+"_p"], lo = +r[k+"_lo"], hi = +r[k+"_hi"], n = r[k+"_n"], kk = r[k+"_k"];
+  const shown = k === "quality" ? `${(p*100).toFixed(1)}%` : (k.startsWith("cit_") ? `${(p*100).toFixed(1)}%` : `${kk}/${n}`);
+  return `<td><div class="bar"><div class="track${good ? "" : " neg"}"><i style="width:${(p*100).toFixed(1)}%"></i></div><span>${shown}</span></div><span class="ci">${(lo*100).toFixed(0)}–${(hi*100).toFixed(0)}%${k.startsWith("cit_") ? ` of ${n} citations` : ""}</span></td>`;
+};
+document.getElementById("t1").innerHTML = `<thead><tr><th>Measure</th>${M.map(m => `<th>${LABEL[m]}</th>`).join("")}</tr></thead><tbody>` +
+  `<tr><th>Citations generated</th>${M.map(m => `<td>${S[m].citations}</td>`).join("")}</tr>` +
+  rows.map(([k, l, g]) => `<tr><th>${l}</th>${M.map(m => cell(S[m], k, g)).join("")}</tr>`).join("") + "</tbody>";
+
+// error gallery
+const seen = new Set(), errs = [];
+D.questions.forEach(q => M.forEach(m => q.ans[m].cits.forEach(c => {
+  if (c.s === "wrong" && !seen.has(c.c)) { seen.add(c.c); errs.push({...c, m}); }
+})));
+document.getElementById("errors").innerHTML = errs.map(e => `<div class="err"><span class="case">${esc(e.n)}</span>
+  <div class="line"><span class="cit strike">${esc(e.c)}</span><span class="small muted">${LABEL[e.m]}</span></div>
+  <p class="small muted">${esc(e.e)}</p></div>`).join("");
+
+// study 2
+const OUT = {allowed:"Allowed",dismissed:"Dismissed",allowed_in_part:"Allowed in part"};
+document.getElementById("t2").innerHTML = `<thead><tr><th>Appeal</th><th>Decided</th><th>Court</th>${M.map(m => `<th>${LABEL[m]}</th>`).join("")}</tr></thead><tbody>` +
+  D.cases.map(c => `<tr><th><span class="casename">${esc(c.title)}</span><br><a class="cit" href="${c.url}" target="_blank" rel="noopener">${c.cit}</a></th><td>${c.date.slice(5)}</td><td><b>${OUT[c.actual]}</b> ${c.maj}</td>` +
+    M.map(m => { const p = c.preds[m]; return `<td><span class="verdict ${p.o === c.actual ? "v-hit" : "v-miss"}">${OUT[p.o]}</span><span class="ci">conf. ${p.conf}${p.rec ? " · recognised" : ""}</span></td>`; }).join("") + "</tr>").join("") +
+  `<tr><th>Correct</th><td></td><td class="muted">baseline 5/8</td>${M.map(m => `<td><b>${D.cases.filter(c => c.preds[m].o === c.actual).length}/8</b></td>`).join("")}</tr></tbody>`;
+document.getElementById("t2note").textContent = "“Recognised” means the model said it thought it already knew the case. On the cases it did not claim to recognise, Opus scored 5/5. Haiku predicted “dismissed” 6 times; the Court dismissed 3.";
+document.getElementById("judgments").innerHTML = `<h3 style="margin-top:8px">Read the AI judgments</h3>` + D.cases.map(c => `<details class="judg"><summary><span><span class="casename">${esc(c.title)}</span> <span class="cit muted">${c.cit}</span></span></summary>
+  <div class="stack"><p class="small"><b>What the Court held.</b> ${esc(c.summary)}</p>${M.map(m => `<div><p class="small"><b>${LABEL[m]}</b>: ${OUT[c.preds[m].o]} <span class="verdict ${c.preds[m].o === c.actual ? "v-hit" : "v-miss"}">${c.preds[m].o === c.actual ? "matches" : "differs"}</span></p><div class="jtext">${esc(c.preds[m].t)}</div></div>`).join("")}</div></details>`).join("");
+
+// explorer
+const gcls = (cat, g) => ["2","p"].includes(g) ? "g-good" : ["1","h"].includes(g) ? "g-mid" : "g-bad";
+const gtxt = (cat, g) => ({p:"✓",h:"½",f:"✗","2":"2","1":"1","0":"0"}[g] ?? g);
+const fc = document.getElementById("f-cat"), fs = document.getElementById("f-show"), fq = document.getElementById("f-q"), list = document.getElementById("qlist");
+Object.entries(CAT).forEach(([k, v]) => fc.insertAdjacentHTML("beforeend", `<option value="${k}">${v}</option>`));
+const hasErr = q => M.some(m => !["2","p"].includes(q.ans[m].g) || q.ans[m].cits.some(c => c.s !== "real"));
+function render(){
+  const term = fq.value.trim().toLowerCase();
+  const qs = D.questions.filter(q => (!fc.value || q.cat === fc.value)
+    && (!fs.value || (fs.value === "err" ? hasErr(q) : M.some(m => q.ans[m].cits.some(c => c.s !== "real"))))
+    && (!term || (q.p + M.map(m => q.ans[m].t).join(" ")).toLowerCase().includes(term)));
+  document.getElementById("count").textContent = `${qs.length} of ${D.questions.length} questions`;
+  list.innerHTML = qs.map(q => `<details class="q" data-id="${q.id}"><summary><span class="qid">${q.id} · ${CAT[q.cat]}</span><span>${esc(q.p)}</span>
+    <span class="grades" aria-label="grades">${M.map(m => `<span class="g ${gcls(q.cat, q.ans[m].g)}" title="${LABEL[m]}">${gtxt(q.cat, q.ans[m].g)}</span>`).join("")}</span></summary>
+    <div class="qbody">${q.kp.length ? `<div><p class="eyebrow">Marking guide</p><ul class="kp">${q.kp.map(k => `<li>${esc(k)}</li>`).join("")}</ul></div>` : ""}
+    ${q.gold_cits.length ? `<p class="small"><span class="eyebrow">Gold citation</span> ${q.gold_cits.map(c => `<span class="cit">${esc(c)}</span>`).join(", ")}</p>` : ""}
+    <div class="tabs" role="tablist">${M.map((m, i) => `<button role="tab" aria-selected="${i === 0}" data-m="${m}">${LABEL[m]}</button>`).join("")}</div>
+    <div class="panel"></div></div></details>`).join("");
+}
+function panel(q, m){
+  const a = q.ans[m];
+  return `<div class="stack"><div class="answer">${esc(a.t)}</div>
+    ${a.note ? `<p class="gradenote${a.serious ? " serious" : ""}">${a.serious ? "<b>Serious error.</b> " : ""}${esc(a.note)}</p>` : ""}
+    ${a.cits.length ? `<div class="citlist"><p class="eyebrow">Citations (${a.cits.length})</p>${a.cits.map(c => `<div class="citrow"><span class="chip c-${c.s}">${STATUS[c.s]}</span><span><span class="cit">${esc(c.c)}</span> <span class="small muted">${esc(c.n || "")}${c.e && c.s !== "real" ? " · " + esc(c.e) : ""}</span></span></div>`).join("")}</div>` : `<p class="small muted">No citations given.</p>`}</div>`;
+}
+list.addEventListener("toggle", e => {
+  const d = e.target; if (!d.open) return;
+  const q = D.questions.find(x => x.id === d.dataset.id); const p = d.querySelector(".panel");
+  if (!p.innerHTML) p.innerHTML = panel(q, M[0]);
+}, true);
+list.addEventListener("click", e => {
+  const b = e.target.closest(".tabs button"); if (!b) return;
+  const d = b.closest("details"); const q = D.questions.find(x => x.id === d.dataset.id);
+  d.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+  d.querySelector(".panel").innerHTML = panel(q, b.dataset.m);
+});
+[fc, fs].forEach(el => el.addEventListener("change", render)); fq.addEventListener("input", render);
+render();
+const ok = D.runs.every(r => !r.forbidden) && D.judge_runs.every(r => !r.forbidden);
+document.getElementById("runlog").textContent = `${D.runs.length} answer runs and ${D.judge_runs.length} judge runs, served by ${[...new Set(D.runs.flatMap(r => r.served))].join(", ")}; ${ok ? "no run used a forbidden tool." : "see run log."}`;
+})();
+</script>

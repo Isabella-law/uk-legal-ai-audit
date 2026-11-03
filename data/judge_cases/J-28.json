@@ -1,0 +1,47 @@
+{
+ "id": "J-28",
+ "status": "verified",
+ "court": "UKSC",
+ "neutral_citation": "[2026] UKSC 28",
+ "real_title": "R v Sheikh and others",
+ "decision_date": "2026-07-27",
+ "anonymised_title": "The Crown v The Defendants",
+ "appeal_from": "Court of Appeal (Criminal Division) [2025] EWCA Crim 38; [2025] 1 WLR 2924",
+ "facts": "The Defendants (five members of one household) were convicted at Leeds Crown Court in December 2023 of offences under section 5 of the Domestic Violence, Crime and Victims Act 2004 (as amended) of causing or allowing a vulnerable adult, V, to suffer serious physical harm. V, aged 30, had come from Pakistan in 2014 after an arranged marriage to one Defendant and lived in the family home. On 1 August 2015 an ambulance was called; V was deeply unconscious with a severe brain injury and remains in a vegetative state. On admission, a very severe lesion over her sacrum was found, which had received no medical attention, and which must have been very painful and known to everyone in the household. The Crown's case was that the lesion was caused some days earlier by deliberate application of a caustic substance, and that the brain injury was most likely a hypoglycaemic coma from ingestion of glimepiride, an anti-diabetic drug prescribed to one Defendant and available in the house. The Crown could not prove who inflicted either injury. It alleged that each Defendant either caused the harm or, knowing of the lesion, was or ought to have been aware of a significant risk of serious harm, failed to protect V, and that the unlawful act occurred 'in circumstances of the kind that D foresaw or ought to have foreseen' (s 5(1)(d)(iii)). The trial judge rejected a submission of no case to answer, adopting a broad reading of s 5(1)(d)(iii), and directed the jury in the statutory words. The Defendants were convicted. The Court of Appeal quashed the convictions: it held the submission of no case should have succeeded because administering glimepiride was 'utterly different' from the infliction of the sacral injury, and that in any event the summing up was tainted by too broad a reading of the provision and gave the jury insufficient assistance. The Court of Appeal certified a point of law and refused leave; the Crown (the Director of Public Prosecutions) appealed to the Supreme Court with permission.",
+ "issues": [
+  {
+   "question": "Where an act causing serious physical harm to a vulnerable adult was utterly different in its mechanism from antecedent violence inflicted on the victim, is that necessarily fatal to the requirement of foresight in section 5(1)(d)(iii) of the 2004 Act?",
+   "actual_answer": "no",
+   "accepted_answers": [
+    "no"
+   ]
+  },
+  {
+   "question": "Did the Court of Appeal err in holding that the submission of no case to answer on the section 5 counts should have succeeded?",
+   "actual_answer": "yes",
+   "accepted_answers": [
+    "yes"
+   ]
+  },
+  {
+   "question": "Was the trial judge's summing up on section 5(1)(d)(iii) defective such that the convictions are unsafe?",
+   "actual_answer": "no",
+   "accepted_answers": [
+    "no"
+   ]
+  }
+ ],
+ "appellant_submissions": "The Crown submits that section 5(1)(d)(iii) should be given a broad, purposive construction. The words 'circumstances of the kind' direct attention to the circumstances in which the act occurred, not to the act itself or its category; Parliament could have required foresight of the act or kind of act but did not. The circumstances need not be identical, only of a kind that D foresaw or ought to have foreseen. The offence was created to address the mischief that, where harm is inflicted in private and the perpetrator cannot be identified, all household members could escape conviction. Requiring precise correspondence between the circumstances establishing awareness of risk and those of the act would unduly limit its protective scope. Once D is shown to be, or to have ought to have been, aware of a significant risk of serious harm from a household member, any deliberate harmful act in the context of known domestic violence against the same victim will, save in wholly exceptional circumstances, fall within circumstances D ought to have foreseen. The Crown says the Court of Appeal wrongly treated the difference in mechanism (caustic agent versus drug) as dispositive, ignoring wider circumstances (hostility towards V, the known earlier injury, her isolation and neglect), and wrongly substituted its own view for the jury's. It also says the summing up tracked the statute and needed no further elaboration, and the Court of Appeal's other criticisms of the trial are unfounded.",
+ "respondent_submissions": "The Defendants submit that section 5(1)(d)(iii) must not be construed so broadly as to include any deliberate harmful act occurring in the context of previous domestic violence known to have been perpetrated against the victim in the same household. Such a reading would leave the sub-paragraph without function, since it would add no safeguard beyond sub-paragraphs (d)(i) and (d)(ii); the Crown's case amounts to near-presumption that (d)(iii) is satisfied once (d)(i) and (ii) are proved. Section 5(1)(d)(iii) provides additional protection for a non-perpetrating defendant against vicarious liability for any unlawful act. Awareness of a general risk of violence in a household does not mean any unlawful act within it satisfies the provision; the kind of circumstances in which the further harm occurred must itself have been foreseeable. The focus should be on all the circumstances in which the harm occurred, not merely the risk already present. Here, administration of a small quantity of glimepiride was wholly different in kind from the infliction of the sacral injury by a caustic agent, and the Defendants contended in the courts below that glimepiride may have been ingested accidentally or voluntarily and that the sacral lesion was a pressure sore. They support the Court of Appeal's conclusion that no reasonable jury, properly directed, could find the statutory condition met, and its criticism of the summing up.",
+ "legal_materials": "Domestic Violence, Crime and Victims Act 2004, s 5(1): a person (D) is guilty of an offence if (a) a child or vulnerable adult (V) dies or suffers serious physical harm as a result of the unlawful act of a person who was a member of the same household and had frequent contact with V; (b) D was such a person at the time; (c) at that time there was a significant risk of serious physical harm being caused to V by the unlawful act of such a person; and (d) either D was the person whose act caused the harm or (i) D was, or ought to have been, aware of the risk, (ii) D failed to take such steps as he could reasonably have been expected to take to protect V, and (iii) the act occurred in circumstances of the kind that D foresaw or ought to have foreseen. Section 5(2): the prosecution need not prove which alternative applies. Section 5(5): an unlawful act is one that constitutes an offence. Section 5(6): 'act' includes a course of conduct and omission. Authorities: R v Uzma Khan [2009] EWCA Crim 2 (predecessor provision; circumstances need not be identical); Brutus v Cozens [1973] AC 854 (ordinary meaning of statutory words a question of fact); Law Commission Report No 282 (2003); Smith, Hogan and Ormerod, Criminal Law; Criminal Appeal Act 1968, s 33(2).",
+ "actual_outcome": "allowed",
+ "majority": "5-0",
+ "actual_reasoning_summary": "The Supreme Court held that section 5(1)(d)(iii) focuses on the circumstances in which the act occurred, not on the act or its kind, and that 'circumstances of the kind' do not need to be identical or closely correspond to those giving rise to awareness of risk; this broad reading accords with the statute's purpose of addressing harm inflicted in private by unidentifiable household members. The provision is not otiose, since it protects a defendant where the act occurred in circumstances of a kind not foreseen or foreseeable. The nature of the act or mechanism of harm may be one relevant circumstance but is not determinative. The Court of Appeal erred by treating the 'utterly different' mechanism of injury as dispositive to the exclusion of wider circumstances (hostility, the known earlier injury, neglect, isolation) and by substituting its view for the jury's; the trial judge was right to reject the no-case submission. The summing up, which followed the statutory wording, was correct and needed no paraphrase, and the Court of Appeal's other criticisms were unfounded.",
+ "outcome_evidence": "Para 67: \"I would set aside the order of the Court of Appeal allowing the appeals against conviction of the respondents on counts 1 to 3 and 5 and reinstate those convictions.\" Para 66: \"Lambert J was correct to dismiss the submissions of no case to answer on counts 1 to 5; ... Lambert J did not misdirect the jury in relation to counts 1 to 5.\" Para 68: \"I would answer the question in the negative.\"",
+ "brief_written_by": "LLM brief-writer (claude-sonnet-5-5), checked by script",
+ "source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2026/28",
+ "verification": {
+  "outcome_quote_found_in_judgment": true,
+  "leak_terms": []
+ }
+}

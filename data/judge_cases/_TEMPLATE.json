@@ -1,0 +1,24 @@
+{
+  "id": "J-001",
+  "status": "draft",
+  "court": "UKSC",
+  "neutral_citation": "[20XX] UKSC N  (for your records only, never shown to the model)",
+  "real_title": "Real case name (never shown to the model)",
+  "decision_date": "2026-01-01",
+  "anonymised_title": "A Ltd (Appellant) v B (Respondent)",
+  "appeal_from": "Court of Appeal (Civil Division), England and Wales",
+  "facts": "Neutral statement of the agreed facts, taken from the judgment's facts section. Anonymise parties. Do NOT include anything from the court's reasoning or result.",
+  "issues": [
+    {"question": "Issue 1, framed as a yes/no question where possible, e.g. 'Did the respondent owe the appellant a duty of care?'",
+     "actual_answer": "no",
+     "accepted_answers": ["no"]}
+  ],
+  "appellant_submissions": "Summary of the appellant's case, from the judgment's account of the submissions.",
+  "respondent_submissions": "Summary of the respondent's case.",
+  "legal_materials": "Optional: the key statutory provisions in force, quoted.",
+  "actual_outcome": "allowed | dismissed | allowed_in_part",
+  "majority": "e.g. 5-0 or 3-2 (dissents make a case harder; record it)",
+  "source_url": "https://caselaw.nationalarchives.gov.uk/uksc/20XX/N",
+  "brief_written_by": "your initials",
+  "leakage_check": "Tick when a second reader has confirmed the brief does not reveal the outcome"
+}
