@@ -1,6 +1,6 @@
 # Fictitious Authorities? Measuring How Language Models Cite the Law of England and Wales
 
-**Isabella Ogomen Athanasufulu**
+**Isabella O'Gorman**
 LLB, City St George's, University of London
 
 *Working paper, November 2026. Pilot results.*

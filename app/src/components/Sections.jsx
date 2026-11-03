@@ -16,6 +16,7 @@ export function Hero({ data }) {
       <Reveal delay={0.15}>
         <p className="lede">An empirical audit of how AI models cite the law of England and Wales, checked against the official record. It includes a live checker you can try, and a test of whether AI can decide Supreme Court appeals it has never seen.</p>
       </Reveal>
+      <Reveal delay={0.2}><p className="small muted">By <span style={{ color: "var(--ink)" }}>Isabella O'Gorman</span> · LLB, City St George's, University of London</p></Reveal>
       <Reveal delay={0.25} className="ctas">
         <a className="btn primary" href="#check">Try the live checker</a>
         <a className="btn glassy" href="#paper">Read the paper</a>
@@ -236,7 +237,7 @@ export function Footer() {
         <a className="btn primary" href="#check">Try the checker</a>
         <a className="btn glassy" href={REPO} target="_blank" rel="noopener noreferrer">Code and data ↗</a>
       </div>
-      <p className="tiny">LLB research project, City St George's, University of London. Case law: The National Archives, Find Case Law, used under the Open Justice Licence.</p>
+      <p className="tiny">Research by Isabella O'Gorman, LLB, City St George's, University of London. Case law: The National Archives, Find Case Law, used under the Open Justice Licence.</p>
     </footer>
   );
 }
